@@ -1,5 +1,5 @@
 {
-  "siteName" : "Cocoons",
+  "siteName" : "Cocoons.io",
   "slogan" : "Because Blogging sucks!",
   "port" : 8080,
   "source"   : "./src",
@@ -8,6 +8,11 @@
   "templateFolder" : "/templates",
   "templateEngine" : "jade",
   "engine" : "./lib/cocoon-fs.js",
+  "menu" : {
+      "Home" : "/",
+      "Getting Started" : "/getting-started.html",
+      "Contact" : "/contact.html"
+  },
   "redirects" : [
     {"from": "/", "to" : "/index.html"},
     {"from" : "www.*", "to" : "*"}

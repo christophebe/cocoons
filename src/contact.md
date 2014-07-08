@@ -11,7 +11,7 @@ h1 : This is the main title
   <p class="lead">Optimize the site architecture & internal links.  Flexible & fast. NodeJS inside !</p>
   <p><a class="btn btn-lg btn-success" href="#" role="button">Get the code</a></p>
 </div>
-  
+
 
 This is a *simple* markdown file. Just one list :
 - Item 1
