@@ -5,9 +5,13 @@
   "source"   : "./src",
   "target"   : "./target",
   "favicon"  : "/src/images/favicon.png",
+
   "templateFolder" : "/templates",
   "templateEngine" : "jade",
   "engine" : "./lib/cocoon-fs.js",
+
+  "homePage" : "/index.html",
+
   "menu" : {
       "Home" : "/",
       "Getting Started" : "/getting-started.html",
