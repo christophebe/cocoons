@@ -1,0 +1,17 @@
+{
+  "siteName" : "Cocoons",
+  "slogan" : "Because Blogging sucks!",
+  "port" : 8080,
+  "source"   : "./src",
+  "target"   : "./target",
+  "favicon"  : "/src/images/favicon.png",
+  "templateFolder" : "/templates",
+  "templateEngine" : "jade",
+  "engine" : "./lib/cocoon-fs.js",
+  "redirects" : [
+    {"from": "/", "to" : "/index.html"},
+    {"from" : "www.*", "to" : "*"}
+
+  ]
+
+}

@@ -1,0 +1,36 @@
+{
+  "name": "cocoons",
+  "version": "0.1.0",
+  "author": "Christophe Lombart <christophe.lombart@gmail.com>",
+  "description": "Site generator based on semantic cocoon concepts, a special thanks to Laurent Bourrelly ! Made with nodejs, markdown, jade & a lot of coffee. Still in progress ! ",
+  "homepage": "http://www.cocoons.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophebe/cocoons.git"
+  },
+  "dependencies": {
+    "URIjs": "^1.13.2",
+    "async": "*",
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "jade": "^1.3.1",
+    "jsonfile": "^1.2.0",
+    "marked": "^0.3.2",
+    "mime": "*",
+    "rimraf": "*",
+    "serve-favicon": "*",
+    "string": "^1.9.0",
+    "underscore": "*",
+    "winston": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect": "*"
+  },
+  "keywords": [
+    "site generator",
+    "seo",
+    "semantic cocoon"
+  ],
+  "license": "Apache 2.0"
+}

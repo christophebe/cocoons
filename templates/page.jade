@@ -1,0 +1,9 @@
+extends layout
+
+block content-title
+  h1= page.properties.h1
+  hr
+
+block content
+  div(class="col-sm-8 blog-main")
+    != page.content
