@@ -1,0 +1,6 @@
+{
+  "author": "Christophe Lombart",
+  "template": "page.jade",
+  "description" : "Cocoons.io is an open source site generator based on NodeJS & Markdown",
+  "title": "Open source website generator for the Neeeeerds : Cocoons.io"
+}

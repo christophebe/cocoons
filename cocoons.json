@@ -2,20 +2,18 @@
   "siteName" : "Cocoons.io",
   "slogan" : "Because Blogging sucks!",
   "port" : 8080,
-  "source"   : "./src",
-  "target"   : "./target",
-  "favicon"  : "/src/images/favicon.png",
+  "source"   : "src",
+  "target"   : "target",
+  "favicon"  : "src/images/favicon.png",
 
-  "templateFolder" : "/templates",
+  "templateFolder" : "templates",
+  "defaultTemplate" : "page.jade",
   "templateEngine" : "jade",
-  "engine" : "./lib/cocoon-fs.js",
 
   "homePage" : "/index.html",
 
   "menu" : {
-      "Home" : "/",
-      "Getting Started" : "/getting-started.html",
-      "Contact" : "/contact.html"
+      "Getting Started" : "/getting-started.html"
   },
   "redirects" : [
     {"from": "/", "to" : "/index.html"},

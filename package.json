@@ -2,8 +2,11 @@
   "name": "cocoons",
   "version": "0.1.0",
   "author": "Christophe Lombart <christophe.lombart@gmail.com>",
-  "description": "Site generator based on semantic cocoon concepts, a special thanks to Laurent Bourrelly ! Made with nodejs, markdown, jade & a lot of coffee. Still in progress ! ",
+  "description": "Web site generator based which optimise for the SEO ! Made with nodejs, markdown, jade. Still in progress ! ",
   "homepage": "http://www.cocoons.io",
+  "bin": {
+      "cocoons"   : "./bin/exec.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/christophebe/cocoons.git"
