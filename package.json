@@ -1,8 +1,8 @@
 {
   "name": "cocoons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Christophe Lombart <christophe.lombart@gmail.com>",
-  "description": "Web site generator based which optimise for the SEO ! Made with nodejs, markdown, jade. Still in progress ! ",
+  "description": "Web site generator for the SEO ! Made with nodejs, markdown, jade.",
   "homepage": "http://www.cocoons.io",
   "bin": {
       "cocoons"   : "./bin/exec.js"
