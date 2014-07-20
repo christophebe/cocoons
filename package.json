@@ -12,7 +12,6 @@
     "url": "https://github.com/christophebe/cocoons.git"
   },
   "dependencies": {
-    "URIjs": "^1.13.2",
     "async": "*",
     "body-parser": "~1.0.1",
     "express": "~4.0.0",
