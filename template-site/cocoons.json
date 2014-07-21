@@ -1,0 +1,18 @@
+{
+  "siteName" : "Site name",
+  "slogan" : "Add the site slogan",
+  "port" : 8080,
+  "source"   : "src",
+  "target"   : "target",
+  "favicon"  : "src/images/favicon.png",
+
+  "templateFolder" : "templates",
+  "defaultTemplate" : "page.jade",
+  "templateEngine" : "jade",
+
+  "homePage" : "/index.html",
+
+  "menu" : {
+      "Sample Page" : "/sample-page.html"
+  }
+}
