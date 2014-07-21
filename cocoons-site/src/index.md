@@ -26,8 +26,8 @@
     <h4><span class="glyphicon glyphicon-ok"></span> Flexible</h4>
     <p>Can be used in 2 modes : site generator or CMS.</p>
 
-    <h4><span class="glyphicon glyphicon-ok"></span> For the nerds</h4>
-    <p>Use atom.io or another kind of editor that support Markdown.</p>
+    <h4><span class="glyphicon glyphicon-ok"></span> For the hackers</h4>
+    <p>Hackable engine & use atom.io packages to generate content.</p>
   </div>
 
 </div>
