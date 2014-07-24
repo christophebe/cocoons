@@ -14,5 +14,10 @@
 
   "menu" : {
       "Sample Page" : "/sample-page.html"
-  }
+  },
+
+  "widgetFolder" : "widgets",
+  "widgets" : [
+      {"region" : "sidebar", "widgets" : ["contact.jade", "links.jade"]}
+  ]
 }

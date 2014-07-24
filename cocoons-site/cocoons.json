@@ -10,6 +10,11 @@
   "defaultTemplate" : "page.jade",
   "templateEngine" : "jade",
 
+  "widgetFolder" : "widgets",
+
+  "widgets" : [
+      {"region" : "sidebar", "widgets" : ["contact.jade", "links.jade"]}
+  ],
   "homePage" : "/index.html",
 
   "menu" : {
