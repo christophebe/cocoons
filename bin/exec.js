@@ -4,7 +4,7 @@ var preview  = require('../lib/preview.js');
 var generate = require('../lib/generate.js');
 var create = require('../lib/create.js');
 
-if ( process.argv.length != 3 ) {
+if ( process.argv.length < 3 ) {
    console.log('Usage: cocoons [create|preview|generate]\n');
    return;
 }
@@ -20,9 +20,16 @@ switch (process.argv[2]) {
               }
           });
           break;
+
       case "preview":
-          preview.preview();
+          var projectFolder;
+
+          if (process.argv.length == 4) {
+            projectFolder = process.argv[3];
+          }
+          preview.preview(projectFolder);
           break;
+
       case "generate":
           generate.generateStaticSite(function(error, targetFolder) {
               if (error) {
@@ -33,6 +40,7 @@ switch (process.argv[2]) {
               }
           });
           break;
+          
       default:
           console.log("Invalid command, use : cocoons [create|preview|generate]");
           break;
