@@ -13,7 +13,12 @@
   "widgetFolder" : "widgets",
 
   "widgets" : [
-      {"region" : "sidebar", "widgets" : [{"order" : 1, "name" : "contact.jade"}, {"order" : 2, "name" :  "links.jade"}]}
+      {"region" : "sidebar",
+       "widgets" : [
+         {"order" : 1, "name" : "contact.jade"},
+         {"order" : 2, "name" :  "links.jade"}
+       ]
+      }
   ],
   "homePage" : "/index.html",
 
