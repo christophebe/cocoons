@@ -7,4 +7,7 @@ block content-title
 
 block content
   div(class="col-sm-8 blog-main")
+    if widgets.beforeContent
+      each widget, index in widgets.beforeContent
+          != widget.html
     != page.content

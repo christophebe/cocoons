@@ -17,7 +17,46 @@
   },
 
   "widgetFolder" : "widgets",
+
   "widgets" : [
-      {"region" : "sidebar", "widgets" : ["contact.jade", "links.jade"]}
+      {"region" : "beforeContent",
+        "widgets" : [
+          {"order" : 1, "name" : "adsense.html"}
+        ]
+
+      },
+
+      {"region" : "sidebar",
+       "widgets" : [
+        {"order" : 1, "name" : "contact.jade"},
+
+        {"order" : 2, "name" : "call2action.jade",
+          "properties" : {
+            "intro" : "Hello World ! This a call to action widget",
+            "label" : "Click me !",
+            "href"  : "/"
+          }
+
+        },
+
+
+        {"order" : 3, "name" : "links.jade",
+           "properties" : {
+            "title" : "Follow us ! ",
+            "urls"  : [
+              {"href" : "https://github.com/christophebe/cocoons", "anchor" : "GitHub" },
+              {"href" : "https://twitter.com/cocoons_io", "anchor" : "Twitter" }
+            ]
+          }
+        },
+        {"order" : 4, "name" : "image.jade",
+          "properties" : {
+             "src" : "/images/200x200-image.jpg",
+             "alt" : "This is an Ads ! "
+           }
+        }
+
+       ]
+      }
   ]
 }
