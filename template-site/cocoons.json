@@ -1,14 +1,13 @@
 {
-  "siteName" : "Site name",
-  "slogan" : "Add the site slogan",
-  "port" : 8080,
-  "source"   : "src",
-  "target"   : "target",
-  "favicon"  : "src/images/favicon.png",
-
-  "templateFolder" : "templates",
+  "siteName"        : "Site name",
+  "port"            : 8080,
+  "source"          : "src",
+  "target"          : "target",
+  "favicon"         : "src/images/favicon.png",
+  "previewEngine"   : "./cocoon-fs.js",
+  "templateFolder"  : "templates",
   "defaultTemplate" : "page.jade",
-  "templateEngine" : "jade",
+  "templateEngine"  : "jade",
 
   "homePage" : "/index.html",
 
