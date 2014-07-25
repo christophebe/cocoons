@@ -1,7 +1,7 @@
 div.sidebar-module
-  h4 Get the code
+  h4= widget.properties.title
+  hr
   ol.list-unstyled
-    li
-      a(href="https://github.com/christophebe/cocoons") GitHub
-    li  
-      a(href="https://twitter.com/cocoons_io") Twitter
+    each url, index in widget.properties.urls
+      li
+        a(href=url.href)= url.anchor

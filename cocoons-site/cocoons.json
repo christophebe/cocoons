@@ -15,7 +15,15 @@
       {"region" : "sidebar",
        "widgets" : [
          {"order" : 1, "name" : "contact.jade"},
-         {"order" : 2, "name" :  "links.jade"}
+         {"order" : 2, "name" : "links.jade",
+            "properties" : {
+             "title" : "Follow us ! ",
+             "urls"  : [
+               {"href" : "https://github.com/christophebe/cocoons", "anchor" : "GitHub" },
+               {"href" : "https://twitter.com/cocoons_io", "anchor" : "Twitter" }
+             ]
+           }
+         }
        ]
       }
   ],
