@@ -106,15 +106,3 @@ You can generate the complete web site with the command line :
 ```
 cocoons generate
 ```
-
-##Features that we want to work on
-
-- Generate a site structure from a mindmap.
-- Create optimal links between pages.
-- Support 2 modes : static web site generator or CMS.
-- plugins like Google analytics, custom widgets, ...
-- Hackable engine & content editor based on [atom.io](http://www.atom.io).
-- Application integration.
-
-
-Please, tell us what kind of features you are looking for.

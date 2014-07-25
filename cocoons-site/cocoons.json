@@ -30,7 +30,8 @@
   "homePage" : "/index.html",
 
   "menu" : {
-      "Getting Started" : "/getting-started.html"
+      "Getting Started" : "/getting-started.html",
+      "Features" : "/features.html"
   },
   "redirects" : [
     {"from": "/", "to" : "/index.html"},
