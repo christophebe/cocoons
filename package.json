@@ -5,7 +5,7 @@
   "description": "Web site generator for the SEO ! Made with nodejs, markdown and jade.",
   "homepage": "http://www.cocoons.io",
   "bin": {
-      "cocoons"   : "./bin/exec.js"
+    "cocoons": "./bin/exec.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,12 @@
   },
   "dependencies": {
     "async": "*",
-    "collections" : "*",
     "body-parser": "~1.0.1",
+    "collections": "*",
     "express": "~4.0.0",
     "jade": "^1.3.1",
     "jsonfile": "^1.2.0",
-    "marked": "^0.3.2",
+    "marked": "*",
     "mime": "*",
     "rimraf": "*",
     "serve-favicon": "*",
