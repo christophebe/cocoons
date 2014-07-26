@@ -4,7 +4,10 @@
   "source"          : "src",
   "target"          : "target",
   "favicon"         : "src/images/favicon.png",
+
   "previewEngine"   : "./cocoon-fs.js",
+  "markdownRender"  : "./bootstraprender.js",
+
   "templateFolder"  : "templates",
   "defaultTemplate" : "page.jade",
   "templateEngine"  : "jade",
@@ -30,8 +33,9 @@
   "homePage" : "/index.html",
 
   "menu" : {
-      "Getting Started" : "/getting-started.html",
-      "Features" : "/features.html"
+      "Features" : "/features.html",
+      "Getting Started" : "/getting-started.html"
+
   },
   "redirects" : [
     {"from": "/", "to" : "/index.html"},
