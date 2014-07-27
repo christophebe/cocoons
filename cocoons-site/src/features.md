@@ -1,6 +1,6 @@
 ##Project status & goals
 
-Cocoons.io is a quite new project. Don't use it in production for the moment !  but you are welcome to contribute to it :-)
+Cocoons.io is a quite new project. Don't use it in production for the moment !  but you are welcome to contribute :-)
 
 
 The main goal is to build a tools that can help you to create a new site quickly.

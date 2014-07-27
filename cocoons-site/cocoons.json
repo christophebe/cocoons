@@ -15,6 +15,12 @@
   "widgetFolder"    : "widgets",
 
   "widgets" : [
+      { "region" : "beforecontent",
+        "widgets" : [
+          {"order" : 1, "name" : "adsense_690_90.html"}
+        ]
+
+      },
       {"region" : "sidebar",
        "widgets" : [
          {"order" : 1, "name" : "contact.jade"},
@@ -26,7 +32,8 @@
                {"href" : "https://twitter.com/cocoons_io", "anchor" : "Twitter" }
              ]
            }
-         }
+         },
+         {"order" : 3, "name" : "adsense_200_200.html"}
        ]
       }
   ],
