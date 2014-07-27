@@ -1,3 +1,7 @@
 
 script(src='http://code.jquery.com/jquery.min.js')
 script(src='/js/bootstrap.min.js')
+
+if widgets.scripts
+  each widget, index in widgets.scripts
+        != widget.html

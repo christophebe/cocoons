@@ -35,7 +35,19 @@
          },
          {"order" : 3, "name" : "adsense_200_200.html"}
        ]
-      }
+     },
+
+     {
+       "region" : "scripts",
+       "widgets" : [
+         {"order" : 100, "name" : "google-analytics.jade",
+           "properties" :  {
+             "gaid" : "UA-1832395-7"
+           }
+
+         }
+       ]
+     }
   ],
   "homePage" : "/index.html",
 

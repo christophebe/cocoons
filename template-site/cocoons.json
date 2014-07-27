@@ -37,8 +37,6 @@
           }
 
         },
-
-
         {"order" : 3, "name" : "links.jade",
            "properties" : {
             "title" : "Follow us ! ",
@@ -56,6 +54,17 @@
         }
 
        ]
-      }
+     },
+     {
+       "region" : "scripts",
+       "widgets" : [
+         {"order" : 1, "name" : "google-analytics.jade",
+           "properties" :  {
+             "gaid" : "UA-xxxx"
+           }
+
+         }
+       ]
+     }
   ]
 }
