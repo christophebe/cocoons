@@ -1,7 +1,10 @@
 
 
-This is a sample page. You can use the markdown format.
-HTML code is also supported in the .md file.
+This is a sample page. This HTML page is generated from a markdown file named 'sample-page.md'.
+The page properties are defined in another file called sample-page.json. In this property file you can add all properties you want.
+They will be accessible from the templates used to generate the HTML code. 
+
+
 
 If you need more info on markdown format, please visit this [page](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
 
