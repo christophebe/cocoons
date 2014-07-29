@@ -6,7 +6,7 @@
   "favicon"         : "src/images/favicon.png",
 
   "previewEngine"   : "./cocoon-fs.js",
-  "markdownRender"  : "./bootstraprender.js",
+  "markdownRender"  : "./bootstrap-render.js",
 
   "templateFolder"  : "templates",
   "defaultTemplate" : "page.jade",
