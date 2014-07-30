@@ -2,7 +2,7 @@
 
 This is a sample page. This HTML page is generated from a markdown file named 'sample-page.md'.
 The page properties are defined in another file called sample-page.json. In this property file you can add all properties you want.
-They will be accessible from the templates used to generate the HTML code. 
+They will be accessible from the templates used to generate the HTML code.
 
 
 
@@ -32,7 +32,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
    - item 2
 4. And another item.
 
-#Images
+# Images
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
@@ -44,7 +44,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Or a simple link like http://www.google.com
 
-#Code
+# Code
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -56,18 +56,25 @@ s = "Python syntax highlighting"
 print s
 ```
 
-```
+
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
-```
-```cocoons
-{
-  widget: "calltoaction",
-  properties : {
-    title : "This is the title"
-  }
 
-}
+# Widget
+
+
+```widget
+{ "name" : "call2action.jade",
+  "properties" : {
+    "intro" : "Hello World ! This another call to action widget",
+    "label" : "Click me, thanks !",
+    "href"  : "/"
+  }
+}  
+```
+
+```widget
+{ "name" : "boxes.jade"}  
 ```
 
 
