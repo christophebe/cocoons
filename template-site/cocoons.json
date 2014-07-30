@@ -1,5 +1,5 @@
 {
-  "siteName"        : "Site name",
+  "siteName"        : "Sample Site",
   "port"            : 8080,
   "source"          : "src",
   "target"          : "target",
@@ -12,7 +12,7 @@
   "homePage" : "/index.html",
 
   "menu" : {
-      "Sample Page" : "/sample-page.html"
+      "Markdown" : "/markdown.html"
   },
 
   "widgetFolder" : "widgets",
@@ -29,7 +29,7 @@
        "widgets" : [
         {"order" : 1, "name" : "contact.jade"},
 
-        {"order" : 2, "name" : "call2action.jade",
+        {"order" : 2, "name" : "call2action-sidebar.jade",
           "properties" : {
             "intro" : "Hello World ! This a call to action widget",
             "label" : "Click me !",

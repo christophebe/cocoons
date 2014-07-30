@@ -1,4 +1,4 @@
-div(class="sidebar-module sidebar-module-inset")
-  p= widget.properties.intro
+.well
+  p= widget.properties.text
   p
-    a(class="btn btn-primary btn-lg btn-block", href=widget.properties.href, role="button")= widget.properties.label
+    a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button')= widget.properties.link.anchor

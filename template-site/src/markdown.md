@@ -1,18 +1,18 @@
 
 
-This is a sample page. This HTML page is generated from a markdown file named 'sample-page.md'.
-The page properties are defined in another file called sample-page.json. In this property file you can add all properties you want.
+This is a sample page. This HTML page is generated from a markdown file named 'markdown.md'.
+The page properties are defined in another file called markdown.json. In this property file you can add all properties you want.
 They will be accessible from the templates used to generate the HTML code.
 
 
 
 If you need more info on markdown format, please visit this [page](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
 
-# Heading
-## H2
+## Heading
 ### H3
+#### H4
 
-#Emphasis
+## Emphasis
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -22,7 +22,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-#Lists
+## Lists
 
 1. First ordered list item
 2. Another item
@@ -32,11 +32,11 @@ Strikethrough uses two tildes. ~~Scratch this.~~
    - item 2
 4. And another item.
 
-# Images
+## Images
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-#Links
+## Links
 
 [I'm an inline-style link](https://www.google.com)
 
@@ -44,7 +44,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Or a simple link like http://www.google.com
 
-# Code
+## Code
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -60,25 +60,23 @@ print s
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 
-# Widget
+## Widget
 
 
 ```widget
 { "name" : "call2action.jade",
   "properties" : {
-    "intro" : "Hello World ! This another call to action widget",
-    "label" : "Click me, thanks !",
-    "href"  : "/"
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.",
+    "link" : {
+      "href" :"/",
+      "anchor" : "More info »"
+    }
   }
 }  
 ```
 
-```widget
-{ "name" : "boxes.jade"}  
-```
 
-
-#Tables
+## Tables
 
 Colons can be used to align columns.
 
@@ -95,7 +93,7 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-#Blockquotes
+## Blockquotes
 
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
@@ -104,14 +102,14 @@ Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-#Horizontal Rule
+## Horizontal Rule
 
 ---
 
 ***
 
 
-#Youtube videos
+## Youtube videos
 
 A link to a youtube video :
 
