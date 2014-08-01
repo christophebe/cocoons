@@ -12,7 +12,8 @@
   "homePage" : "/index.html",
 
   "menu" : {
-      "Markdown" : "/markdown.html"
+      "Markdown" : "/markdown.html",
+      "Carousel" : "/carousel.html"
   },
 
   "widgetFolder" : "widgets",
