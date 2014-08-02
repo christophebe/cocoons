@@ -1,9 +1,14 @@
 #!/usr/bin/env node
 
-var preview  = require('../lib/preview.js');
-var generate = require('../lib/generate.js');
-var create = require('../lib/create.js');
+var preview  = require('../lib/exec/preview.js');
+var generate = require('../lib/exec/generate.js');
+var create = require('../lib/exec/create.js');
+var log = require('../lib/logger').Logger;
 
+/**
+ * Global application used to create, preview & generate a web site
+ *
+ */
 if ( process.argv.length < 3 ) {
    console.log('Usage: cocoons [create|preview|generate]\n');
    return;
@@ -13,10 +18,10 @@ switch (process.argv[2]) {
       case "create":
           create.createWebsite(function(error, status) {
               if (error) {
-                console.log("Error during the creation of the site : " + error );
+                log.error("Error during the creation of the site : " + error );
               }
               else {
-                console.log("The site is correctly created : " + status);
+                log.info("The site is correctly created : " + status);
               }
           });
           break;
@@ -33,15 +38,15 @@ switch (process.argv[2]) {
       case "generate":
           generate.generateStaticSite(function(error, targetFolder) {
               if (error) {
-                console.log("Error during the generation of the site : " + error );
+                log.error("Error during the generation of the site : " + error );
               }
               else {
-                console.log("The site is correctly generated in " + targetFolder);
+                log.info("The site is correctly generated in " + targetFolder);
               }
           });
           break;
-          
+
       default:
-          console.log("Invalid command, use : cocoons [create|preview|generate]");
+          log.error("Invalid command, use : cocoons [create|preview|generate]");
           break;
 }

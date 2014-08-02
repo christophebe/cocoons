@@ -2,5 +2,5 @@
   "author": "Mister unknown",
   "template": "page.jade",
   "description" : "This is the content of the meta description",
-  "title": "Cocoons.io demo with a carousel",
+  "title": "Page with a carousel"
 }
