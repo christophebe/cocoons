@@ -16,7 +16,12 @@ if ( process.argv.length < 3 ) {
 
 switch (process.argv[2]) {
       case "create":
-          create.createWebsite(function(error, status) {
+          var siteTemplateName;
+          
+          if (process.argv.length == 4) {
+            siteTemplateName = process.argv[3];
+          }
+          create.createWebsite(siteTemplateName, function(error, status) {
               if (error) {
                 log.error("Error during the creation of the site : " + error );
               }
