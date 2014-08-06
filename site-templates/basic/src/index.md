@@ -40,7 +40,7 @@ The propreties of this page are in index.json (title, description, template to u
 
 
 ```widget
-{ "name" : "message.jade",
+{ "name" : "alert.jade",
   "properties" : {
     "text" : "This is small text that can be used to focus on an important information"
   }  

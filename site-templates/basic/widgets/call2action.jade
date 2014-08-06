@@ -1,4 +1,7 @@
 .well
   p= widget.properties.text
   p
-    a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button')= widget.properties.link.anchor
+    if (widget.properties.onclick)
+        a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button', oncClik=widget.properties.onclick)= widget.properties.link.anchor
+    else
+        a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button')= widget.properties.link.anchor

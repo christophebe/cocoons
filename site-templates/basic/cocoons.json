@@ -33,7 +33,7 @@
         {"order" : 2, "name" : "call2action-sidebar.jade",
           "properties" : {
             "intro" : "Hello World ! This a call to action widget",
-            "label" : "Click me !",
+            "anchor" : "Click me !",
             "href"  : "/"
           }
 
@@ -55,8 +55,8 @@
         }
 
        ]
-     },
-     {
+      },
+      {
        "region" : "scripts",
        "widgets" : [
          {"order" : 1, "name" : "google-analytics.jade",
@@ -66,6 +66,6 @@
 
          }
        ]
-     }
+      }
   ]
 }
