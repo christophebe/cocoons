@@ -3,7 +3,7 @@
   "port"            : 8080,
   "source"          : "src",
   "target"          : "target",
-  "favicon"         : "src/images/favicon.png",
+  "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
   "templateFolder"  : "templates",
   "defaultTemplate" : "page.jade",
