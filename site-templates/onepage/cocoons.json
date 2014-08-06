@@ -1,0 +1,38 @@
+{
+  "siteName"        : "One Page Site",
+  "port"            : 8080,
+  "source"          : "src",
+  "target"          : "target",
+  "favicon"         : "src/images/favicon.png",
+  "previewEngine"   : "../fs/preview-fs.js",
+  "templateFolder"  : "templates",
+  "defaultTemplate" : "page.jade",
+  "templateEngine"  : "jade",
+
+  "homePage" : "/index.html",
+
+  "menu" : {
+      "Menu1" : "/#xxx",
+      "Menu2" : "/#yyy",
+      "Menu3" : "/#zzz"
+  },
+
+  "imagemenu" : "/images/menu-image.jpg",
+
+  "widgetFolder" : "widgets",
+
+  "widgets" : [
+     {
+       "region" : "scripts",
+       "widgets" : [
+         {"order" : 1, "name" : "google-analytics.jade",
+           "properties" :  {
+             "gaid" : "UA-xxxx"
+           }
+
+         }
+       ]
+     }
+  ]
+
+}
