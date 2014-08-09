@@ -1,0 +1,125 @@
+|# -----------------------------------------------------------------------------
+|#
+|# This is a standard htaccess that you can used for your Cocoons.io websites
+|# Inspired from the Wordpress & Drupal World (thanks !)
+|# Also getting ideas from here : http://www.wpexplorer.com/htaccess-wordpress-security/
+|#
+|# Uncomment the options you want to add more restrictions
+|#
+|# -----------------------------------------------------------------------------
+| #{'\n'}
+if (config.homePage)
+  |# Set the default handler
+  |DirectoryIndex #{config.homePage}
+  | #{'\n'}
+
+if (config.htaccess.hideDirectories)
+  |# Don't show directory listings for URLs which map to a directory.
+  |Options All -Indexes
+  | #{'\n'}
+
+if (config.notFoundPage)
+  |# HTTP Error pages#{'\n'}
+
+if (config.notFoundPage)
+  |ErrorDocument 404 #{'/'}#{config.notFoundPage}#{'\n'}
+if (config.errorPage)
+  |ErrorDocument 500 #{'/'}#{config.errorPage}#{'\n'}
+| #{'\n'}
+
+
+if (config.htaccess.denyAccessToHtaccess)
+  |# Deny access to all .htaccess files
+  |<files ~ "^.*\.([Hh][Tt][Aa])">
+  |order allow,deny
+  |deny from all
+  |satisfy all
+  |</files>#{'\n'}
+
+
+if (config.htaccess.rewrite)
+  | #{'\n'}
+  |# Various rewrite rules.
+  |<IfModule mod_rewrite.c>
+  |  RewriteEngine on
+  | #{'\n'}
+  if (config.htaccess.rewrite.blockAccessHiddenDirectories)
+    |  # Block access to "hidden" directories whose names begin with a period. This
+    |  # includes directories used by version control systems such as Subversion or
+    |  # Git to store control files. Files whose names begin with a period, as well
+    |  # as the control files used by CVS, are protected by the FilesMatch directive
+    |  # above.
+    |  #
+    |  # NOTE: This only works when mod_rewrite is loaded. Without mod_rewrite, it is
+    |  # not possible to block access to entire directories from .htaccess, because
+    |  # <DirectoryMatch> is not allowed here.
+    |  #
+    |  # If you do not have mod_rewrite installed, you should remove these
+    |  # directories from your webroot or otherwise protect them from being
+    |  # downloaded.
+    |  RewriteRule "(^|/)\." - [F]
+    | #{'\n'}
+
+  if (config.htaccess.rewrite && config.htaccess.rewrite.withwww)
+    |  # If your site can be accessed both with and without the 'www.' prefix, you
+    |  # can use one of the following settings to redirect users to your preferred
+    |  # URL, either WITH or WITHOUT the 'www.' prefix. Choose ONLY one option:
+    |  #
+    |  # To redirect all users to access the site WITH the 'www.' prefix,
+    |  # (http://example.com/... will be redirected to http://www.example.com/...)
+    |  # uncomment the following:
+    |  RewriteCond %{HTTP_HOST} !^www\. [NC]
+    |  RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    | #{'\n'}
+  else
+    |  #
+    |  # To redirect all users to access the site WITHOUT the 'www.' prefix,
+    |  # (http://www.example.com/... will be redirected to http://example.com/...)
+    |  # uncomment the following:
+    |  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    |  RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
+    | #{'\n'}
+    | #{'\n'}
+
+
+if (config.htaccess.rewrite)
+  |</IfModule>#{'\n'}
+
+
+if (config.htaccess.authorizedFileTypes)
+  | #{'\n'}
+  |# Disable access to all file types except the following
+  |Order deny,allow
+  |Deny from all
+  |<Files ~ ".(#{config.htaccess.authorizedFileTypes})$">
+  |Allow from all
+  |</Files>
+| #{'\n'}
+| #{'\n'}
+
+if (config.htaccess.blockedIps)
+  |# Block IP address.
+  |<Limit GET POST>
+  |order allow,deny#{'\n'}
+  each ip in config.htaccess.blockedIps
+    |deny from #{ip}#{'\n'}
+  |allow from all
+  |</Limit>
+| #{'\n'}
+| #{'\n'}
+
+if (config.htaccess.browserCache)
+  |# Setup browser caching
+  |<IfModule mod_expires.c>
+  |ExpiresActive On
+  |ExpiresByType image/jpg "access 1 year"
+  |ExpiresByType image/jpeg "access 1 year"
+  |ExpiresByType image/gif "access 1 year"
+  |ExpiresByType image/png "access 1 year"
+  |ExpiresByType text/css "access 1 month"
+  |ExpiresByType application/pdf "access 1 month"
+  |ExpiresByType text/x-javascript "access 1 month"
+  |ExpiresByType application/x-shockwave-flash "access 1 month"
+  |ExpiresByType image/x-icon "access 1 year"
+  |ExpiresDefault "access 2 days"
+  |</IfModule>

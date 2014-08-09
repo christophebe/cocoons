@@ -11,6 +11,10 @@
   "defaultTemplate" : "page.jade",
   "templateEngine"  : "jade",
 
+  "homePage"        : "index.html",
+  "notFoundPage"    : "404.html",
+  "errorPage"       : "500.html",
+
   "widgetFolder"    : "widgets",
 
   "widgets" : [
@@ -48,17 +52,26 @@
        ]
      }
   ],
-  "homePage" : "/index.html",
+
 
   "menu" : {
       "Features" : "/features.html",
       "Getting Started" : "/getting-started.html"
 
-  },
-  "redirects" : [
-    {"from": "/", "to" : "/index.html"},
-    {"from" : "www.*", "to" : "*"}
+  }
 
-  ]
+  "htaccess" : {
+    "generate" : true,
+    "hideDirectories" : true,
+    "denyAccessToHtaccess" : true,
+    "rewrite" : {
+      "blockAccessHiddenDirectories" : true,
+      "withwww" : true
+    },
+    /*"authorizedFileTypes" : "html|json|xml|css|js|jpe?g|png|gif|pdf|docx|rtf|xls|odf|zip|rar",*/
+    /*"blockedIps" : ["111.111.11.11", "222.222.22.22"], */
+    "browserCache" : true
+
+  }
 
 }
