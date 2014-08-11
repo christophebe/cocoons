@@ -77,7 +77,7 @@
     "denyAccessToHtaccess" : true,
     "rewrite" : {
       "blockAccessHiddenDirectories" : true,
-      "withwww" : true
+      "withwww" : false
     },
     /*"authorizedFileTypes" : "html|json|xml|css|js|jpe?g|png|gif|pdf|docx|rtf|xls|odf|zip|rar",*/
     /*"blockedIps" : ["111.111.11.11", "222.222.22.22"], */
