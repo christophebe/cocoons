@@ -39,8 +39,8 @@
 
   "htaccess" : {
     "generate" : true,
-    "hideDirectories" : true,
-    "denyAccessToHtaccess" : true,
+    "hideDirectories" : false,
+    "denyAccessToHtaccess" : false,
     "rewrite" : {
       "blockAccessHiddenDirectories" : true,
       "withwww" : false
