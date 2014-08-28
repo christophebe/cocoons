@@ -84,5 +84,17 @@
     /*"blockedIps" : ["111.111.11.11", "222.222.22.22"], */
     "browserCache" : true
 
+  },
+
+  "ftp" : {
+    "host"                : "hostname",
+    "port"                : 21,
+    "user"                : "username",
+    "password"            : "password",
+    "folder"              : "folder" // Not mandatory,
+    "deleteExistingfiles" : true
+
+
   }
+    
 }
