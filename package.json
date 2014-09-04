@@ -16,9 +16,9 @@
     "body-parser": "~1.0.1",
     "collections": "*",
     "express": "~4.0.0",
+    "jsftp": "*",
     "graceful-fs": "^3.0.2",
     "jade": "^1.3.1",
-    "jsftp": "*",
     "marked": "*",
     "mime": "*",
     "node-json-minify": "^0.1.3-a",
@@ -36,6 +36,7 @@
     "web site generator",
     "site",
     "static",
+    "static site", 
     "seo",
     "semantic cocoon"
   ],

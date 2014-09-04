@@ -52,7 +52,7 @@
   },
 
   "ftp" : {
-    "host"                : "hostname",
+    "host"                : "hostname", //using the ip adress is not working for the moment
     "port"                : 21,
     "user"                : "username",
     "password"            : "password",
