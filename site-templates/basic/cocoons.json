@@ -91,7 +91,7 @@
     "port"                : 21,
     "user"                : "username",
     "password"            : "password",
-    "folder"              : "folder" // Not mandatory,
+    "folder"              : "folder", // Not mandatory
     "deleteExistingfiles" : true
 
 
