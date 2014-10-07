@@ -9,11 +9,11 @@ var log      = require('../lib/logger').Logger;
 
 /**
  * Global application (command line) used to  :
- * - create :  create a new site structure without content,
- * - mindmap : create a new site structure & content based on a mindmap,
- * - preview : preview the site on localhost,
+ * - create    : create a new empty site,
+ * - mindmap   : create a new site structure & content based on a mindmap,
+ * - preview   : preview the site on localhost,
  * - generate  : generate html pages & other artifacts,
- * - ftp :deploy a web site
+ * - ftp       : deploy a web site
  *
  */
 if ( process.argv.length < 3 ) {
