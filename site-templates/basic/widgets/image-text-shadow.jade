@@ -1,7 +1,7 @@
 .media
-  a.pull-left(href='#', id="qui-suis-je")
+  a.pull-left(href='#', id="widget.properties.id")
     img.media-object(src=widget.properties.image.src, alt=widget.properties.image.alt)
   .media-body
     h4.media-heading= widget.properties.title
-      each text, index in widget.properties.texts
-        p= text
+    each text, index in widget.properties.texts
+      p= text

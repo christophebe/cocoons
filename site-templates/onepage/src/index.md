@@ -2,7 +2,7 @@
 ***
 
 ```widget
-{ "name" : "well.jade",
+{ "name" : "message.jade",
   "properties" : {
     "text" : "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo."
   }
@@ -11,7 +11,7 @@
 
 
 ```widget
-{ "name" : "image-boxes.jade",
+{ "name" : "image-text.jade",
   "properties" : {
     "title" : "First featurette heading",
     "texts" : [
@@ -36,7 +36,7 @@ Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta f
 ***
 
 ```widget
-{ "name" : "image-boxes.jade",
+{ "name" : "image-text.jade",
   "properties" : {
     "title" : "First featurette heading",
     "texts" : [
@@ -57,7 +57,7 @@ Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta f
 ```
 
 ```widget
-{ "name" : "well.jade",
+{ "name" : "message.jade",
   "properties" : {
     "text" : "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper."
     }

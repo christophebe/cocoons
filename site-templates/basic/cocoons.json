@@ -5,6 +5,10 @@
   "target"          : "target",
   "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
+  
+  "mindmapEngine": "../fs/mindmap-fs.js",
+  "mindmapConverter": "../mindmap/opml-converter.js",
+
   "templateFolder"  : "templates",
   "defaultTemplate" : "page.jade",
   "templateEngine"  : "jade",
@@ -15,7 +19,8 @@
 
   "menu" : {
       "Markdown" : "/markdown.html",
-      "Carousel" : "/carousel.html"
+      "Carousel" : "/carousel.html",
+      "Widget demo" : "all-widgets.html"
   },
 
   "widgetFolder" : "widgets",

@@ -6,7 +6,7 @@
     "text"  : "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.",
     "link"  : {"href" : "/markdown.html", "anchor" : "Sample Page »"}
   }
-}  
+}
 ```
 
 ```widget
@@ -31,7 +31,7 @@
 
     ]
   }
-}  
+}
 ```
 
 
@@ -43,6 +43,6 @@ The propreties of this page are in index.json (title, description, template to u
 { "name" : "alert.jade",
   "properties" : {
     "text" : "This is small text that can be used to focus on an important information"
-  }  
-}  
+  }
+}
 ```
