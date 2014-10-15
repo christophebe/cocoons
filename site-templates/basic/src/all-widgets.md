@@ -152,3 +152,18 @@ This is a small text
    }
 }
 ```
+
+You can use also a list of element with icons. The list of icon can be found [here](http://getbootstrap.com/components/).
+
+```widget
+{ "name" : "list.jade",
+  "properties" : {
+    "columns" :[
+        [{"title" : " This is a nice title", "text" : "This is a nice text.", "class" : "glyphicon glyphicon-user"},
+         {"title" : " This is a nice title", "text" : "This is a nice text.", "class" :"glyphicon glyphicon-ok-circle"}],
+        [{"title" : " This is a seconde title", "text" : "Welcome to cocoons demo.","class" :"glyphicon glyphicon-question-sign"},
+         {"title" : " This is a nice title", "text" : "This is a nice text.", "class" : "glyphicon glyphicon-cloud-download"}]
+    ]
+  }
+}
+```

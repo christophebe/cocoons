@@ -39,6 +39,7 @@
 The propreties of this page are in index.json (title, description, template to use, ...)**
 
 
+
 ```widget
 { "name" : "alert.jade",
   "properties" : {
