@@ -1,5 +1,4 @@
 
-
 This is a sample page. This HTML page is generated from a markdown file named 'markdown.md'.
 The page properties are defined in another file called markdown.json. In this property file you can add all properties you want.
 They will be accessible from the templates used to generate the HTML code.
@@ -42,6 +41,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
+
 Or a simple link like http://www.google.com
 
 ## Code
@@ -72,7 +72,7 @@ But let's throw in a <b>tag</b>.
       "anchor" : "More info »"
     }
   }
-}  
+}
 ```
 
 
@@ -81,7 +81,7 @@ But let's throw in a <b>tag</b>.
 Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| ------------- |:--------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
@@ -118,6 +118,6 @@ A link to a youtube video :
 alt="Markdown Tutorial" width="640" height="360" border="10" /></a>
 
 
-or the iframe youtube code :  
+or the iframe youtube code :
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/6A5EpqqDOdk" frameborder="0" allowfullscreen></iframe>
