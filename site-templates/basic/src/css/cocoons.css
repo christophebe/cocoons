@@ -99,3 +99,8 @@ h2 {
 .sidebar-module-inset ol:last-child {
   margin-bottom: 0;
 }
+
+img {
+  padding-bottom : 10px;
+  padding-top : 10px;
+}
