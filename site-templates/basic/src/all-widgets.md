@@ -64,7 +64,23 @@
 }
 ```
 ---
+Reponsive HTML 5 video
 
+```widget
+{ "name" : "video.jade",
+  "properties" : {
+    "src"      : "/video/big_buck_bunny.mp4",
+    "type"     : "video/mp4",
+    "width"    : "640",
+    "height"   : "480",
+    "controls" : true,
+    "autoplay" : false,
+    "message"  : "Your browser does not support the video tag."
+  }
+}
+```
+
+---
 This is a small text
 
 ```widget
@@ -168,5 +184,16 @@ You can use also a list of element with icons. The list of icon can be found [he
 }
 ```
 
-
-<iframe width="640" height="320" src="//www.youtube.com/embed/ssssss" frameborder="0" allowfullscreen></iframe>
+```widget
+{ "name" : "youtube.jade",
+  "properties" : {
+    "name"     : "Add a good name or a title for SEO",
+    "description" : "Add keywords in this description",
+    "duration" : "S25",
+    "regionsAllowed" : "FR BE CH",
+    "thumbnail" : "/images/thumbnail.jpg",
+    "src" : "//www.youtube.com/embed/6A5EpqqDOdk",
+    "allowfullscreen" : true
+  }
+}
+```

@@ -108,6 +108,27 @@ Quote break.
 
 ***
 
+## HTML 5 video player
+
+```widget
+{ "name" : "video.jade",
+  "properties" : {
+    "name"     : "Add a good name or a title for SEO",
+    "description" : "Add keywords in this description",
+    "duration" : "S25",
+    "thumbnail" : "/images/thumbnail.jpg",
+    "regionsAllowed" : "FR BE CH",
+    "src"      : "/video/big_buck_bunny.mp4",
+    "type"     : "video/mp4",
+    "width"    : "640",
+    "height"   : "480",
+    "controls" : false,
+    "autoplay" : true,
+    "message"  : "Your browser does not support the video tag."
+  }
+}
+```
+
 
 ## Youtube videos
 
