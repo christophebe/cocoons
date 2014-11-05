@@ -13,10 +13,11 @@ body {
 }
 
 h2 {
-    color :#72A3D4;
+
     border-bottom: 1px solid #e5e5e5;
     padding-top : 5px;
 }
+
 
 /* Custom page header */
 .header {
