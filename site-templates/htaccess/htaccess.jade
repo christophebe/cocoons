@@ -72,7 +72,7 @@ if (config.htaccess.rewrite)
     |  RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
     | #{'\n'}
   else
-    |  #
+    |   #
     |  # To redirect all users to access the site WITHOUT the 'www.' prefix,
     |  # (http://www.example.com/... will be redirected to http://example.com/...)
     |  # uncomment the following:
@@ -81,6 +81,10 @@ if (config.htaccess.rewrite)
     | #{'\n'}
     | #{'\n'}
 
+    if (cloakingRules && cloakingRules.length > 0)
+      |   # Cloaking rules just for the fun ! #{'\n'}
+      each rule in cloakingRules
+        |   #{rule}#{'\n'}
 
 if (config.htaccess.rewrite)
   |</IfModule>#{'\n'}

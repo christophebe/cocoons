@@ -5,7 +5,7 @@
   "target"          : "target",
   "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
- 
+
   "mindmapEngine": "../fs/mindmap-fs.js",
   "mindmapConverter": "../mindmap/opml-converter.js",
 
@@ -57,7 +57,6 @@
     "browserCache" : false
 
   },
-
   "ftp" : {
     "host"                : "hostname", //using the ip adress is not working for the moment
     "port"                : 21,
