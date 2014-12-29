@@ -6,8 +6,10 @@
   "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
 
-  "mindmapEngine": "../fs/mindmap-fs.js",
+  "mindmapEngine"   : "../fs/mindmap-fs.js",
   "mindmapConverter": "../mindmap/opml-converter.js",
+
+  "cloakingEngine"  : "../fs/cloaking-engine.js",
 
   "templateFolder"  : "templates",
   "defaultTemplate" : "page.jade",
@@ -77,37 +79,44 @@
       }
   ],
 
-  /*
-  "cloaks" : {
-    "rules" : [
 
+  // Redirects & cloaking
+  "cloaks" : [
+
+      // Say welcome to Google with nice content
       {
-        "method" : "userAgent",
-        "conditions" : ["^Google", "^Mozilla/5\\.0\\ \\(compatible;\\ Googlebot/"],
+        "name" : "Display another content to Google",
+        "conditions" : {
+          "userAgents" : ["^Google", "^Mozilla/5\\.0\\ \\(compatible;\\ Googlebot/"]
+          //,
+          //"ips"        : ["/66\\.249\\.[\\d]{1,3}\\.[\\d]{1,3}/", "/72\\.14\\.[\\d]{1,3}\\.[\\d]{1,3}/"]
+        },
+
         "rewrites" : [
           {
             "from" : "^markdown.html$",
-            "to" : "/gg/index.html"
+            "to" : "/cloaking/cloaked-content.html",
+            "type" : "replace"
           }
         ]
       },
+      // Don't diplay the nice content to the human
       {
-        "method" : "host",
-        "conditions" : ["/66\\.249\\.[\\d]{1,3}\\.[\\d]{1,3}/"],
+        "name" : "Don't show specific content to the humans",
+        "conditions" : {
+          "userAgents" : ["^(?!(Google))", "^(?!(Google|Mozilla/5\\.0\\ \\(compatible;\\ Googlebot/))"]
+          //,
+          //"ips"        : ["^(?!(/66\\.249\\.[\\d]{1,3}\\.[\\d]{1,3}/ | /72\\.14\\.[\\d]{1,3}\\.[\\d]{1,3}/))"]
+        },
         "rewrites" : [
           {
-            "from" : "^markdown.html$",
-            "to" : "/gg/index.html"
+            "from" : "^cloaking",
+            "to" : "/",
+            "type" : "404"
           }
         ]
       }
-
-
-
-    ]
-  },
-
-  */
+  ],
 
   "htaccess" : {
     "generate" : true,
