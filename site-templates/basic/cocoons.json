@@ -83,6 +83,17 @@
   // Redirects & cloaking
   "cloaks" : [
 
+      // Simple 301
+      {
+        "name" : "301",
+        "rewrites" : [
+          {
+            "from" : "^test-301.html$",
+            "to" : "/",
+            "type" : "301"
+          }
+        ]
+      },
       // Say welcome to Google with nice content
       {
         "name" : "Display another content to Google",
@@ -96,6 +107,11 @@
           {
             "from" : "^markdown.html$",
             "to" : "/cloaking/cloaked-content.html",
+            "type" : "replace"
+          },
+          {
+            "from" : "^\/$", 
+            "to" : "/cloaking/homepage-for-google.html",
             "type" : "replace"
           }
         ]
