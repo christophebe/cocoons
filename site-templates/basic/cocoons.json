@@ -110,7 +110,7 @@
             "type" : "replace"
           },
           {
-            "from" : "^\/$", 
+            "from" : "^\/$",
             "to" : "/cloaking/homepage-for-google.html",
             "type" : "replace"
           }
@@ -120,7 +120,7 @@
       {
         "name" : "Don't show specific content to the humans",
         "conditions" : {
-          "userAgents" : ["^(?!(Google))", "^(?!(Google|Mozilla/5\\.0\\ \\(compatible;\\ Googlebot/))"]
+          "userAgents" : ["^(?!(Google)) | ^(?!(Google|Mozilla/5\\.0\\ \\(compatible;\\ Googlebot/))"]
           //,
           //"ips"        : ["^(?!(/66\\.249\\.[\\d]{1,3}\\.[\\d]{1,3}/ | /72\\.14\\.[\\d]{1,3}\\.[\\d]{1,3}/))"]
         },
