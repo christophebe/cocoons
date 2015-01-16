@@ -88,7 +88,7 @@
         "name" : "301",
         "rewrites" : [
           {
-            "from" : "^test-301.html$",
+            "from" : "^index.html$",
             "to" : "/",
             "type" : "301"
           }
