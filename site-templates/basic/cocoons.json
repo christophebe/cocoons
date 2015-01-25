@@ -53,7 +53,8 @@
             "title" : "Follow us ! ",
             "urls"  : [
               {"href" : "https://github.com/christophebe/cocoons", "anchor" : "GitHub" },
-              {"href" : "https://twitter.com/cocoons_io", "anchor" : "Twitter" }
+              {"href" : "https://twitter.com/cocoons_io", "anchor" : "Twitter" },
+              {"href" : "/out/external-url.html", "anchor" : "No following link & 302", "rel" : "nofollow" }
             ]
           }
         },
@@ -91,6 +92,17 @@
             "from" : "^index.html$",
             "to" : "/",
             "type" : "301"
+          }
+        ]
+      },
+      // 302, no follow
+      {
+        "name" : "302 - Demo affiliation link",
+        "rewrites" : [
+          {
+            "from" : "^out/external-url.html$",
+            "to" : "http://www.google.com", // or any kind of affiliate link
+            "type" : "302"
           }
         ]
       },

@@ -41,6 +41,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
+No follow external link here : [I'm an inline-style link with title](nofollow:https://www.google.com "Google's Homepage")
+
+No follow internal link here : [Home](nofollow:/)
 
 Or a simple link like http://www.google.com
 
