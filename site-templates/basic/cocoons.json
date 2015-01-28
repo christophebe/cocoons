@@ -1,6 +1,7 @@
 {
   "siteName"        : "Sample Site",
   "port"            : 8080,
+  "useProxy"        : true, 
   "source"          : "src",
   "target"          : "target",
   "favicon"         : "/images/favicon.png",
@@ -138,7 +139,10 @@
         "rewrites" : [
           {
             "from" : "^cloaking",
-            //"to" : "/",
+
+            // with htaccess, it should the 404 page here
+            // in the preview mode, the attribute 'to' is not necessary
+            "to" : "404.html",
             "type" : "404"
           }
         ]
@@ -147,8 +151,8 @@
 
   "htaccess" : {
     "generate" : true,
-    "hideDirectories" : false,
-    "denyAccessToHtaccess" : false,
+    "hideDirectories" : true,
+    "denyAccessToHtaccess" : true,
     "rewrite" : {
       "blockAccessHiddenDirectories" : true,
       "withwww" : false
