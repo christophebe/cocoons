@@ -1,7 +1,7 @@
 {
   "siteName"        : "Sample Site",
   "port"            : 8080,
-  "useProxy"        : true, 
+  "useProxy"        : false, 
   "source"          : "src",
   "target"          : "target",
   "favicon"         : "/images/favicon.png",
