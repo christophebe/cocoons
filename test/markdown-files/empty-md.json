@@ -1,0 +1,5 @@
+{
+  "template": "template.jade",
+  "description" : "This is the description",
+  "title": "This is the title"
+}

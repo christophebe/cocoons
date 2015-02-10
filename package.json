@@ -33,6 +33,7 @@
     "mocha": "*",
     "expect": "*"
   },
+
   "keywords": [
     "site generator",
     "web site generator",

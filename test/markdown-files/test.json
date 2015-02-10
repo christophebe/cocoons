@@ -1,0 +1,8 @@
+{
+
+  "author"      : "Christophe Lombart",
+  "template"    : "template.jade",
+  "description" : "this is the description",
+  "title"       : "Nice Title with \" &  ' " 
+
+}
