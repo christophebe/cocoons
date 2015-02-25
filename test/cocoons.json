@@ -81,6 +81,7 @@
       }
   ],
 
+
   // Redirects & cloaking
   "cloaks" : [
 
@@ -166,15 +167,17 @@
           }
         ]
       },
-      // Don't diplay the nice content to the human - based on dns
+      // Don't diplay the nice content to the human & many bots - based on dns
+      // The content is displayed only to specific crawler : Google, Bing & Yahoo
       {
         "name" : "Don't show specific content to the humans - reverse dns",
         "conditions" : {
-          "dns" : ["^((?!(g|G)oogle(b|B)ot).)*$", "^((?!msn).)*$", "^((?!microsoft).)*$", "^((?!yahoo).)*$" ]
+          //"dns" : ["^((?!(g|G)oogle(b|B)ot).)*$"]
+          "dns" : ["^((?!(((g|G)oogle(b|B)ot)|msn|microsoft|yahoo)).)*$"]
         },
         "rewrites" : [
           {
-            "from" : "^cloaking-dns",
+            "from" : "^dns-cloaking",
             // with htaccess, it should the 404 page here
             // in the preview mode, the attribute 'to' is not necessary
             "to" : "404.html",

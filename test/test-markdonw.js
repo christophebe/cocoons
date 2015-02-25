@@ -20,8 +20,8 @@ describe('Test Markdown', function(){
     describe('#emptyfile', function(){
       it('should return a correct page if the md file is empty', function(done){
           markdownPage.buildFromFile("./test/markdown-files/empty-md.md", function(error, page){
-            assert("template.jade", page.properties.template);
-            assert(true, page.content == null);
+            assert(page.properties.template == "template.jade");
+            assert(page.content != null);
             done();
           });
       });
@@ -31,8 +31,9 @@ describe('Test Markdown', function(){
     describe('#emptyProps', function(){
       it('should return a correct page if the json file is empty', function(done){
           markdownPage.buildFromFile("./test/markdown-files/empty-props.md", function(error, page){
-            assert(true, page.properties == {});
-            assert(true, page.content == "This is the content");
+            assert(page.properties.file == "./test/markdown-files/empty-props.md");
+            assert(page.content == "This is the content\n", "invalid content");
+
             done();
           });
       });
@@ -43,8 +44,8 @@ describe('Test Markdown', function(){
     describe('#invalid properties', function(){
       it('should return an error if the format for the properties is incorrect', function(done){
           markdownPage.buildFromFile("./test/markdown-files/invalid-properties.md", function(error, page){
-            assert(true, page.properties == {});
-            assert(true, page.content == "#Hello world");
+            assert(page.properties);
+            assert(page.content == "#Hello world\n");
             done();
           });
       });
