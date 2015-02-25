@@ -170,7 +170,7 @@
       {
         "name" : "Don't show specific content to the humans - reverse dns",
         "conditions" : {
-          "dns" : ["^((?!(g|G)oogle(b|B)ot).)*$", "^((?!msn).)*$", "^((?!microsoft).)*$", "^((?!yahoo).)*$" ]
+          "dns" : ["^((?!(((g|G)oogle(b|B)ot)|msn|microsoft|yahoo)).)*$"]
         },
         "rewrites" : [
           {
