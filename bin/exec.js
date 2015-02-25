@@ -18,7 +18,7 @@ var log      = require('../lib/logger').Logger;
  *
  */
 if ( process.argv.length < 3 ) {
-   log.error('Usage: cocoons [create|preview|generate|ftp|mindmap]\n');
+   console.log('Usage: cocoons [create|preview|generate|ftp|mindmap]\n');
    return;
 }
 
@@ -32,10 +32,10 @@ switch (process.argv[2]) {
           }
           create.createSite(siteTemplateName, function(error, status) {
               if (error) {
-                log.error("Error during the creation of the site : " + error );
+                console.log("Error during the creation of the site : " + error );
               }
               else {
-                log.info("The site is correctly created : " + status);
+                console.log("The site is correctly created : " + status);
               }
           });
           break;
@@ -53,10 +53,10 @@ switch (process.argv[2]) {
 
           mindmap.generateFromMindmap(mindmapFile,function(error, folder){
               if (error) {
-                log.error("Error during the generation of the pages from the mindmap : " + error );
+                console.log("Error during the generation of the pages from the mindmap : " + error );
               }
               else {
-                log.info("The pages are correctly generated from the mindmap in the folder : " + folder);
+                console.log("The pages are correctly generated from the mindmap in the folder : " + folder);
               }
           });
 
@@ -74,10 +74,10 @@ switch (process.argv[2]) {
       case "generate":
           generate.generateSite(function(error, targetFolder) {
               if (error) {
-                log.error("Error during the generation of the site : " + error );
+                console.log("Error during the generation of the site : " + error );
               }
               else {
-                log.info("The site is correctly generated in " + targetFolder);
+                console.log("The site is correctly generated in " + targetFolder);
               }
           });
           break;
@@ -85,15 +85,15 @@ switch (process.argv[2]) {
       case "ftp" :
           deploy.deploySite(function(error, serverInfo){
               if (error) {
-                log.error("Error during the deployment of the site : " + error );
+                console.log("Error during the deployment of the site : " + error );
               }
               else {
-                log.info("The site is correctly deployed in " + serverInfo);
+                console.log("The site is correctly deployed in " + serverInfo);
               }
           });
           break;
 
       default:
-          log.error("Invalid command, use : cocoons [create|mindmap|preview|generate|deploy]");
+        console.log("Invalid command, use : cocoons [create|mindmap|preview|generate|deploy]");
           break;
 }
