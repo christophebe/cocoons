@@ -1,9 +1,10 @@
 {
   "siteName"        : "Sample Site",
   "port"            : 8080,
-  "useProxy"        : false,
+  "useProxy"        : true,
   "source"          : "src",
   "target"          : "target",
+  "public"          : "public", 
   "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
 

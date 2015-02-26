@@ -2,6 +2,7 @@
   "siteName"        : "One Page Site",
   "port"            : 8080,
   "source"          : "src",
+  "public"          : "public", 
   "target"          : "target",
   "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
