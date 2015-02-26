@@ -1,10 +1,11 @@
 {
   "siteName"        : "Sample Site",
+  "hostname"        : "localhost",
   "port"            : 8080,
   "useProxy"        : true,
   "source"          : "src",
   "target"          : "target",
-  "public"          : "public", 
+  "public"          : "public",
   "favicon"         : "/images/favicon.png",
   "previewEngine"   : "../fs/preview-fs.js",
 
@@ -83,6 +84,7 @@
   ],
 
   // Redirects & cloaking
+
   "cloaks" : [
 
       // Simple 301
@@ -185,6 +187,7 @@
       }
 
   ],
+
 
   "htaccess" : {
     "generate" : true,
