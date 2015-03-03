@@ -29,8 +29,7 @@
     "underscore": "*",
     "xml2json": "*",
     "native-dns" : "*",
-    "bunyan" : "*",
-
+    "bunyan" : "*"
   },
   "devDependencies": {
     "mocha": "*",
