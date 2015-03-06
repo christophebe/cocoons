@@ -2,7 +2,7 @@
   "siteName"        : "Sample Site",
   "hostname"        : "localhost",
   "port"            : 8080,
-  "useProxy"        : true,
+  "useProxy"        : false,
   "source"          : "src",
   "target"          : "target",
   "public"          : "public",
@@ -84,7 +84,10 @@
   ],
 
   // Redirects & cloaking
+  // Uncomment cloaking rules
 
+
+  /*
   "cloaks" : [
 
       // Simple 301
@@ -187,7 +190,7 @@
       }
 
   ],
-
+  */
 
   "htaccess" : {
     "generate" : true,

@@ -30,7 +30,7 @@ switch (process.argv[2]) {
           if (process.argv.length == 4) {
             siteTemplateName = process.argv[3];
           }
-          create.createSite(siteTemplateName, function(error, status) {
+          create.createSite(siteTemplateName, null, function(error, status) {
               if (error) {
                 console.log("Error during the creation of the site : " + error );
               }
