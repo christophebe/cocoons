@@ -1,0 +1,67 @@
+Cocoons with nginx :
+
+- Update the cocoons.json file :
+useProxy : true
+hostname : "yourdomain.com"
+
+
+- Create a nginx config for your site :
+
+on ubuntu :
+
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/yourdomain.com
+sudo nano /etc/nginx/sites-available/yourdomain.com
+
+sudo ln -s /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/
+
+on mac (eg. dev machine) : you can add the server config into the main nginx config file
+sudo nano /usr/local/conf/nginx.conf
+
+on other os, you can find the location of the nginx config file with the command : sudo nginx -t
+
+
+Add server sections in this file :
+----------------------------------
+
+server {
+         server_name "~^www\.(.*)$" ;
+         return 301 $scheme://$1$request_uri ;
+}
+
+
+
+server {
+    listen 80;
+
+    server_name yourdomain.com;
+
+    location ~ ^/(images/|img/|javascript/|js/|css/|stylesheets/|flash/|media/|static/|robots.txt|humans.txt|favicon.ico) {
+        root [path to your cocoons site folder]/public;
+        access_log off;
+        expires max;
+    }
+
+    location / {
+        proxy_pass http://localhost:8082;
+
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-NginX-Proxy true;
+        proxy_redirect off;
+
+
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_set_header   Connection "";
+        proxy_http_version 1.1;
+        proxy_cache one;
+        proxy_cache_key sfs$request_uri$scheme;
+
+    }
+}
+
+
+
+Restart
+-------
+sudo service nginx restart
