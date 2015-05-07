@@ -16,7 +16,7 @@ var ipMsn = "65.52.104.0";
 var ipYahoo = "67.195.37.0";
 var chromeUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36";
 var googleBotUserAgent = "Googlebot/2.1 (+http://www.googlebot.com/bot.html)";
-var dummyBotUserAgent = "I am a boot";
+var dummyBotUserAgent = "I am a bot";
 
 
 describe('Test Cloaking', function() {
@@ -188,6 +188,22 @@ describe('Test Cloaking', function() {
 
       });
 
+
+      it('should return an url based on a pattern', function(done){
+
+          var req = new mocks.MockRequest("/content/test.html", googleBotUserAgent, ipGoogle);
+          var res = new mocks.MockResponse();
+
+
+          cloakingRules.extractPath(req, res,function(error, path){
+              assert(error == null);
+              assert(path == "/gg/content/test.html", "incorrect path : " + path);
+              done(error);
+          });
+
+
+      });
+
     });
 
     describe("Don't show specific content to the humans", function(done){
@@ -309,6 +325,7 @@ describe('Test Cloaking', function() {
 
 
       });
+
     });
 
 

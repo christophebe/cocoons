@@ -7,7 +7,8 @@ var util 		 = require("../lib/util.js");
 
 var TEST_SITE_FOLDER = process.cwd() + "/test/test-new-site";
 var FILES_TO_CHECK = ["public", "src", "templates", "cocoons.json", "preview.sh", "widgets" ];
-var FILES_TO_IGNORE = [ ".DS_Store"];
+var FILES_TO_IGNORE = [ ".DS_Store", "logs"];
+
 
 describe('Test Create Site', function() {
 

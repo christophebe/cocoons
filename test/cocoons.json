@@ -183,6 +183,17 @@
             "type" : "404"
           }
         ]
+      },
+      // URL with pattern
+      {
+        "name" : "Apply the same rules to urls with specific pattern",
+        "rewrites" : [
+          {
+            "from" : "^content",
+            "to" : "/gg/$1",
+            "type" : "replace"
+          }
+        ]
       }
 
   ],
