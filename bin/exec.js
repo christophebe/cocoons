@@ -41,17 +41,23 @@ switch (process.argv[2]) {
           break;
 
       case "mindmap" :
-          var mindmapFile;
 
-          if (process.argv.length == 4) {
-            mindmapFile = process.argv[3];
-          }
-          else {
-            log.error('Usage: cocoons mindmap [pathToMindmapFile]\n');
+        var config = {};
+
+        if (process.argv.length != 4 && process.argv.length != 5) {
+            console.log('Usage: cocoons mindmap [mindmapFile] [pathPrefix]\n');
             return;
           }
 
-          mindmap.generateFromMindmap(mindmapFile,function(error, folder){
+          if (process.argv.length >= 4) {
+            config.mindmapFile = process.argv[3];
+          }
+
+          if (process.argv.length == 5) {
+            config.mindmapPrefix = process.argv[4];
+          }
+
+          mindmap.generateFromMindmap(config,function(error, folder){
               if (error) {
                 console.log("Error during the generation of the pages from the mindmap : " + error );
               }
