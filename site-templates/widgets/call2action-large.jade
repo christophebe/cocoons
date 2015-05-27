@@ -4,6 +4,6 @@ div.jumbotron
     p= widget.properties.text
     p
       if (widget.properties.link.onclick)
-        a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button', onClick=widget.properties.link.onclick)= widget.properties.link.anchor
+        a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button', onclick=widget.properties.link.onclick)= widget.properties.link.anchor
       else
         a.btn.btn-primary.btn-lg(href=widget.properties.link.href,role='button')= widget.properties.link.anchor

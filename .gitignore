@@ -5,3 +5,4 @@ target
 todo.txt
 util-ftp-old.js
 test/site-test-mindmap/src
+npm-debug.log
