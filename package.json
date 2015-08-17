@@ -1,6 +1,6 @@
 {
   "name": "cocoons.io",
-  "version": "0.5.9",
+  "version": "0.5.10",
   "author": "Christophe Lombart <christophe.lombart@gmail.com>",
   "description": "Web site generator for the SEO ! Made with nodejs, markdown and jade.",
   "homepage": "http://www.cocoons.io",
@@ -30,7 +30,7 @@
     "serve-favicon": "*",
     "serve-static": "*",
     "underscore": "*",
-    "xml2json": "*"
+    "xml2js": "^0.4.10"
   },
   "devDependencies": {
     "expect": "*",
