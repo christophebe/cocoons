@@ -25,7 +25,7 @@
     "mkpath": "*",
     "native-dns": "*",
     "ncp": "*",
-    "node-json-minify": "*",
+    "node-json-minify": "0.1.4-a",
     "rimraf": "*",
     "serve-favicon": "*",
     "serve-static": "*",
