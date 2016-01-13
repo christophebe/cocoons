@@ -1,0 +1,36 @@
+!= "-------------------------------------------------------------------------\n"
+!= "Search the required info on google." + config.country + "\n"
+!= "Main keyword(s) : " + kw + "\n"
+!= "Words that you have to use different statements for this page : \n"
+!= "for expressions based on more than on word, use them in the same statement.\n"
+!= "rewrite the expression if it not a correct english (eg. 'young insurance' should be 'insurance for young drivers')"
+!= "-------------------------------------------------------------------------\n"
+!= "Don't forget to remove all comments & specifications. Thanks for your help !\n"
+!= "-------------------------------------------------------------------------\n"
+
+
+!= "Add here a intro composed of a one or more paragraphs with this link"
+if parentPage
+  if parentPage.path
+    !=  "[" + parentPage.kw + "](" + parentPage.path + ".html)"
+  else
+    !=  "[home](/)"
+
+!= "\n\n"
+
+!= "Add here some content that you find from google or other information sources.\n"
+!= "you can add subtitles, lists, tables by using the markdown syntax : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\n"
+!= "Don't repeat the same ideas in different paragraphs. Try to inform & advice. \n"
+
+!= "\n\n"
+
+if children
+  != "## If needed, add a title here (don't remove ##, leave a space between ## and the text)\n"
+  each child in children
+    !=  "Add here one paragraph (between 3 to 5 statements) containing this link :[" + child.kw + "](" + child.path + ".html). The content should be in the context of the keyword of this link. \n\n"
+
+if sisters
+  != "## Replace this text by a subtitle (don't remove ##, leave a space between ## and the text) - short like 'More Info', 'See our other services', 'All Solutions for ...'. Ideally different for each pages. Choose the good one in function of the context. It should help the reader to navigate to the other pages\n"
+  
+  each sister in sisters
+    !=  "- Only one statement with this link (it should be a summary, description of this page, used always a different statement : ) [" + sister.kw + "](" + sister.path + ".html) \n\n"

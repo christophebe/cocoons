@@ -1,0 +1,9 @@
+!= '{\n'
+!= '    "template"   : "page-with-sidebar.jade",\n'
+!= '    "h1"         : "Page title - use this keyword : ' + kw  + ' (or synonym)",\n'
+if title 
+  != '    "title"      : "' + title + '", // do not modify it !\n'
+else
+  != '    "title"      : "SEO Title - Try to start with this keyword : ' + kw + ' - Between 50 & max 70 caracters",\n'
+!= '    "description": "SEO Description - Between 100 et max 155 caracters",\n'
+!= '}\n'
