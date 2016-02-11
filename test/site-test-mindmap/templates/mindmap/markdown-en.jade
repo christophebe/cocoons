@@ -1,6 +1,6 @@
 != "--------------------------------------(remove this section :-)\n"
 != "* Search the required info on google." + config.country + "\n"
-!= "* Main keyword(s) : " + kwAsString + "\n"
+!= "* Main keyword(s) : " + kwsAsString + "\n"
 if expressionsAsString
   != "* Words that you have to use in different sentences on this page : \n"
   != expressionsAsString
@@ -12,7 +12,7 @@ if expressionsAsString
 if parentPage
   != "Add here a intro composed of a one or more paragraphs with this link "
   if parentPage.path
-    !=  "[" + parentPage.kwAsString + "](" + parentPage.path + ".html)"
+    !=  "[" + parentPage.kwsAsString + "](" + parentPage.path + ".html)"
   else
     !=  "[home](/)"
 
@@ -27,10 +27,10 @@ if parentPage
 if children
   != "## If needed, add a title here (don't remove ##)\n"
   each child in children
-    !=  "Add here one paragraph (between 3 to 5 statements) containing this link :[" + child.kwAsString + "](" + child.path + ".html). The content should be in the context of the keyword of this link. \n\n"
+    !=  "Add here one paragraph (between 3 to 5 statements) containing this link :[" + child.kwsAsString + "](" + child.path + ".html). The content should be in the context of the keyword of this link. \n\n"
 
 if sisters
   != "## Replace this text by a subtitle (don't remove ##) - short like 'More Info', 'See our other services', 'All Solutions for ...'. Ideally different for each pages. Choose the good one in function of the context. It should help the reader to navigate to the other pages\n"
   
   each sister in sisters
-    !=  "- Only one statement with this link (it should be a summary, description of this page, used always a different statement : ) [" + sister.kwAsString + "](" + sister.path + ".html) \n\n"
+    !=  "- Only one statement with this link (it should be a summary, description of this page, used always a different statement : ) [" + sister.kwsAsString + "](" + sister.path + ".html) \n\n"

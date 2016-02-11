@@ -1,6 +1,6 @@
 != "----------------------------------------------------------------------------------------------------------------------\n"
 != "* Effectuez vos recherche sur google." + config.country + "\n\n"
-!= "* Mots clés principaux : " + kwAsString + "\n\n"
+!= "* Mots clés principaux : " + kwsAsString + "\n\n"
 if expressionsAsString
   != "* Liste de mots et expressions que vous devez obligatoirement utiliser dans cette page : \n"
   != expressionsAsString
@@ -14,7 +14,7 @@ if parentPage
   != "Ajoutez ici une intro composée d'un ou plusieurs paragraphes contenant le lien "
 
   if parentPage.path
-    !=  "[" + parentPage.kwAsString + "](" + parentPage.path + ".html)"
+    !=  "[" + parentPage.kwsAsString + "](" + parentPage.path + ".html)"
   else
     !=  "[home](/)"
 
@@ -29,7 +29,7 @@ if parentPage
 if children
   != "## Si nécessaire, ajoutez un titre ici (ne pas retirer les ##, laissez un espace entre les ## et le texte du titre)\n"
   each child in children
-    !=  "Ajouter ici un paragraphe (entre 3 et 5 phrases) contenant le lien :[" + child.kwAsString + "](" + child.path + ".html). Le contenu de ce paragraphe doit être élaboré sur base du ou des mots-clés de ce lien.\n\n"
+    !=  "Ajouter ici un paragraphe (entre 3 et 5 phrases) contenant le lien :[" + child.kwsAsString + "](" + child.path + ".html). Le contenu de ce paragraphe doit être élaboré sur base du ou des mots-clés de ce lien.\n\n"
 
 if sisters
    
@@ -37,4 +37,4 @@ if sisters
   != "Il faut un titre court. Ex. 'Pour plus d'infos' ou 'Toutes nos solutions...'. Idéallement, il faut un titre différent sur chaque page. Prenez le temps de bien le choisir en fonction du contexte. Cette partie doit donner envie de lire les autres pages du site.\n\n"
   
   each sister in sisters
-    !=  "- Une seule phrase avec ce lien [" + sister.kwAsString + "](" + sister.path + ".html) Cette phrase doit être un résumé/descriptif de la paga associée à ce lien, doit être à chaque fois unique. \n\n"
+    !=  "- Une seule phrase avec ce lien [" + sister.kwsAsString + "](" + sister.path + ".html) Cette phrase doit être un résumé/descriptif de la paga associée à ce lien, doit être à chaque fois unique. \n\n"
