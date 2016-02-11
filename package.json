@@ -30,7 +30,8 @@
     "serve-favicon": "*",
     "serve-static": "*",
     "underscore": "*",
-    "xml2js": "^0.4.10"
+    "xml2js": "^0.4.10",
+    "generate-corpus": "*"
   },
   "devDependencies": {
     "expect": "*",

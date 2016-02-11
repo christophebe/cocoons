@@ -1,236 +1,80 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
-<node COLOR="#000000" CREATED="1452596228658" ID="F220FD5E-3116-4763-B183-9B4D3A826CD3" MODIFIED="1452618563995" TEXT="courtier cr&#xe9;dit">
-<edge COLOR="#7f7f7f"/>
-<font NAME="Dialog" SIZE="13"/>
-<attribute_layout NAME_WIDTH="33" VALUE_WIDTH="86"/>
-<attribute NAME="kw" VALUE="courtier cr&#xe9;dit"/>
-<attribute NAME="kw" VALUE="cr&#xe9;dit en ligne"/>
-<node COLOR="#000000" CREATED="1452596228669" ID="8FFD7492-5E57-4E04-98A9-BC663E9AF66D" MODIFIED="1452618563997" POSITION="left" TEXT="rachat-credit">
-<edge COLOR="#66ccff"/>
-<font NAME="Dialog" SIZE="12"/>
-<attribute_layout NAME_WIDTH="33" VALUE_WIDTH="76"/>
-<attribute NAME="kw" VALUE="rachat cr&#xe9;dit"/>
-<node COLOR="#000000" CREATED="1452596228669" ID="B17F6F63-207B-4AEA-8051-2E6E60FA4135" MODIFIED="1452618563996" TEXT="immobilier">
-<edge COLOR="#66ccff"/>
-<font NAME="Dialog" SIZE="12"/>
-<attribute_layout NAME_WIDTH="33" VALUE_WIDTH="141"/>
-<attribute NAME="kw" VALUE="rachat cr&#xe9;dit immobilier"/>
-<node CREATED="1452620004659" ID="ID_1903590529" MODIFIED="1452620009226" TEXT="seul"/>
+<node CREATED="1454328017196" ID="ID_1787852288" MODIFIED="1454595112542" TEXT="pret-personnel-rapide">
+<attribute NAME="kw" VALUE="pr&#xea;t personnel rapide"/>
+<attribute NAME="kw" VALUE="pr&#xea;t rapide"/>
+<attribute NAME="expression" VALUE="demande de pr&#xea;t personnel en ligne rapide"/>
+<attribute NAME="expression" VALUE="pr&#xea;t d&apos;argent rapide"/>
+<attribute NAME="expression" VALUE="cr&#xe9;dit rapide en ligne"/>
+<attribute NAME="expression" VALUE="pr&#xea;t &#xe0; la consommation rapide"/>
+<attribute NAME="expression" VALUE="pr&#xea;t conso rapide"/>
+<attribute NAME="expression" VALUE="pr&#xea;t dans les 24h"/>
+<attribute NAME="expression" VALUE="tr&#xe8;s rapide"/>
+<attribute NAME="expression" VALUE="sans emploi"/>
+<attribute NAME="expression" VALUE="sans enqu&#xea;te de cr&#xe9;dit"/>
+<attribute NAME="kw" VALUE="pr&#xea;t personnel imm&#xe9;diat"/>
+<attribute NAME="kw" VALUE="pret personnel immediat"/>
+<attribute NAME="kw" VALUE="cr&#xe9;dit imm&#xe9;diat"/>
+<attribute NAME="kw" VALUE="pret 24h"/>
+<node CREATED="1454520580281" ID="ID_593300918" MODIFIED="1454572861041" POSITION="right" TEXT="pret-personnel-belgique">
+<attribute NAME="kw" VALUE="pr&#xea;t personnel belgique"/>
+<attribute NAME="kw" VALUE="pret personnel belgique"/>
+<attribute NAME="expression" VALUE="Flandre"/>
+<attribute NAME="expression" VALUE="Wallonie"/>
+<attribute NAME="expression" VALUE="Bruxelles"/>
+<attribute NAME="expression" VALUE="Hainaut"/>
+<attribute NAME="expression" VALUE="Li&#xe8;ge"/>
+<node CREATED="1454520638764" ID="ID_674634364" MODIFIED="1454572554308" TEXT="banques-belges">
+<attribute NAME="kw" VALUE="banques belges"/>
+<attribute NAME="expression" VALUE="banques belges fiables"/>
+<attribute NAME="expression" VALUE="meilleures banques belges"/>
+<attribute NAME="expression" VALUE="Belgique"/>
 </node>
-<node COLOR="#000000" CREATED="1452596228669" ID="19050EAC-E9F9-4E81-AAF9-9B4D6C72AA37" MODIFIED="1452618563996" TEXT="conso">
-<edge COLOR="#66ccff"/>
-<font NAME="Dialog" SIZE="12"/>
-<attribute_layout NAME_WIDTH="33" VALUE_WIDTH="128"/>
-<attribute NAME="kw" VALUE="rachat pr&#xea;t personnel"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228669" ID="AE633A49-2F38-4428-8925-815B5107FE07" MODIFIED="1452618563995" TEXT="auto">
-<edge COLOR="#66ccff"/>
-<font NAME="Dialog" SIZE="12"/>
-<attribute_layout NAME_WIDTH="33" VALUE_WIDTH="105"/>
-<attribute NAME="kw" VALUE="rachat cr&#xe9;dit auto"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228669" ID="9C8D3E4E-2B6A-4F52-BA04-F4072CB31B13" MODIFIED="1452596228669" TEXT="frais">
-<edge COLOR="#66ccff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228669" ID="F60A262D-E921-4DA6-8A94-D32A0F1DE7A0" MODIFIED="1452596228669" TEXT="simulation">
-<edge COLOR="#66ccff"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454520651855" ID="ID_222716532" MODIFIED="1454572528860" TEXT="courtiers-credit-belgique">
+<attribute NAME="kw" VALUE="courtiers en cr&#xe9;dit belge"/>
+<attribute NAME="expression" VALUE="Belgique"/>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1452596228670" ID="269854B9-36F9-434C-9EA1-CF20532E048D" MODIFIED="1452596228670" POSITION="left" TEXT="pret-voiture-moto">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228670" ID="33B4AB9E-07A8-4123-A50C-54EA50C24A94" MODIFIED="1452596228670" TEXT="voiture-neuve">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454520597252" ID="ID_1425595408" MODIFIED="1454572336987" POSITION="left" TEXT="pret-personnel-sans-justificatif">
+<attribute NAME="kw" VALUE="pr&#xea;t personnel sans justificatif"/>
+<attribute NAME="kw" VALUE="pret sans justificatif"/>
+<attribute NAME="expression" VALUE="pr&#xea;t consommation sans justificatif"/>
+<attribute NAME="expression" VALUE="pr&#xea;t rapide sans justificatif"/>
+<attribute NAME="expression" VALUE="achat"/>
+<attribute NAME="expression" VALUE="sans justificatif de salaire"/>
+<attribute NAME="expression" VALUE="sans justificatif de revenu"/>
+<attribute NAME="expression" VALUE="sans justificatif bancaire"/>
+<attribute NAME="expression" VALUE="sans relev&#xe9; de compte"/>
+<attribute NAME="expression" VALUE="Belgique"/>
+<attribute NAME="expression" VALUE="rechercher un pr&#xea;t personnel sans justificatif"/>
 </node>
-<node COLOR="#000000" CREATED="1452596228670" ID="F2C76FC4-2E55-4E03-A37B-067AA17C377F" MODIFIED="1452596228670" TEXT="voiture-occasion">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454526293469" ID="ID_1387244367" MODIFIED="1454600224794" POSITION="right" TEXT="calculette-pret">
+<attribute NAME="kw" VALUE="calculette cr&#xe9;dit"/>
+<attribute NAME="kw" VALUE="calculette pr&#xea;t"/>
+<node CREATED="1454526401037" ID="ID_1518154198" MODIFIED="1454593978788" TEXT="capacite-emprunt">
+<attribute NAME="kw" VALUE="capacit&#xe9; emprunt"/>
+<attribute NAME="kw" VALUE="calcul capacit&#xe9; emprunt"/>
 </node>
-<node COLOR="#000000" CREATED="1452596228670" ID="1EEEE2D5-594C-422F-8B61-FC26784A2A76" MODIFIED="1452596228670" TEXT="moto">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454526638358" ID="ID_1232891411" MODIFIED="1454594021633" TEXT="calcul-mensualite">
+<attribute NAME="kw" VALUE="calcul mensualit&#xe9; cr&#xe9;dit"/>
+<attribute NAME="kw" VALUE="calcul mensualit&#xe9; pr&#xea;t"/>
 </node>
-<node COLOR="#000000" CREATED="1452596228670" ID="AB4C3AA8-DAAB-4057-BF13-621B3A89BC5F" MODIFIED="1452596228670" TEXT="pret-voiture-ou-personnel">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228671" ID="D662E4B2-9035-4D8F-A7E8-29DA6F159FA3" MODIFIED="1452596228671" TEXT="deduction-fiscal">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228671" ID="E8FE48AB-43DE-45A4-81F3-90D5F1B9E420" MODIFIED="1452596228671" TEXT="jeune-conducteur">
-<edge COLOR="#66ffcc"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1452596228671" ID="8F0EB77D-7005-410A-8228-00DEE4463046" MODIFIED="1452596228671" POSITION="right" TEXT="pret-personnel">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-<node CREATED="1452596228671" ID="116DF6E4-6B21-4607-AA66-F287C502A6CF" MODIFIED="1452596228671" TEXT="pret-personnel-immediat-sans-justificatif">
-<edge COLOR="#ffcc66"/>
-<font NAME="Helvetica Neue" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228671" ID="BA6572BE-6D50-48FE-ABC3-CBD0A8CDAC76" MODIFIED="1452596228671" TEXT="credit-consommation">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228671" ID="18CCDC59-12A3-4F7E-9082-9A6C97A66A80" MODIFIED="1452596228671" TEXT="mariage">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228672" ID="320AA28C-AC99-4FFC-A1FC-9671C9C66FBB" MODIFIED="1452596228672" TEXT="vacances">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228672" ID="0DB11C17-05C6-4B2B-866C-D7E1C84583D7" MODIFIED="1452596228672" TEXT="voyage-noce">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228672" ID="2F45A598-90E9-4515-9FFA-48430AA0E41C" MODIFIED="1452596228672" TEXT="communion">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228672" ID="97458642-4284-4CB1-99ED-393CC1A24A28" MODIFIED="1452596228672" TEXT="bapteme">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454526697677" ID="ID_400834525" MODIFIED="1454594124763" TEXT="calcul-taeg">
+<attribute NAME="kw" VALUE="taeg calcul"/>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1452596228672" ID="40A9E557-0C33-44C1-ABCC-BC2A712C4678" MODIFIED="1452596228672" TEXT="pret-difficile">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228672" ID="A1E004DA-08E7-4606-8C80-02C8AEC572C2" MODIFIED="1452596228672" TEXT="chomeur">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454528923479" ID="ID_100573404" MODIFIED="1454593797171" POSITION="left" TEXT="financer-projet-rapidement">
+<attribute NAME="kw" VALUE="financer projet rapidement"/>
 </node>
-<node COLOR="#000000" CREATED="1452596228673" ID="CC34D2A1-503C-47E3-842F-3D2707BD1B83" MODIFIED="1452596228673" TEXT="personne-fichee">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
+<node CREATED="1454528994611" ID="ID_1831055632" MODIFIED="1454593931370" POSITION="right" TEXT="preparer-dossier-credit-rapide">
+<attribute NAME="kw" VALUE="dossier cr&#xe9;dit"/>
+<attribute NAME="kw" VALUE="pr&#xe9;parer dossier cr&#xe9;dit"/>
 </node>
-<node COLOR="#000000" CREATED="1452596228673" ID="02349B87-61F3-4438-B7E3-AD765B0B9208" MODIFIED="1452596228673" TEXT="senior">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228673" ID="A3005F12-5ABA-4CAD-BEB2-E3A0ABE8AB55" MODIFIED="1452596228673" TEXT="jeune">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228673" ID="C8121DDE-C90F-4418-A01B-506BE822C0EB" MODIFIED="1452596228673" TEXT="independant">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1452596228673" ID="BB7269E7-0D02-41C6-B606-2103C0D21723" MODIFIED="1452596228673" TEXT="simulation">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228673" ID="0D34840A-6880-43ED-B39E-7CF7AA788DED" MODIFIED="1452596228673" TEXT="pret-sans-banque">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228673" ID="95AD4A6F-3A7C-427D-8A3C-ACA78200FD4F" MODIFIED="1452596228673" TEXT="pret-entre-particuliers">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228673" ID="BE65EC97-6328-44FD-8902-78F4CFDC9238" MODIFIED="1452596228673" TEXT="courtiers">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node CREATED="1452596228673" ID="CF1CEC33-6CFE-42E4-B00A-B13D20A8F57E" MODIFIED="1452596228673" TEXT="preteur-prive">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="DF9BA537-1BD9-4251-80D4-3696DAA1A1B3" MODIFIED="1452596228674" TEXT="micro-credit">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="CDBEE0D1-880D-4105-99F0-AE6397520BE9" MODIFIED="1452596228674" TEXT="credit-zero">
-<edge COLOR="#ffcc66"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="FB448D03-0D09-49FB-BE0F-9F7EEF482BA4" MODIFIED="1452596228674" TEXT="pret-personnel-belgique">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228674" ID="5192AE81-0FAA-47AE-8FFD-507DF67E514C" MODIFIED="1452596228674" TEXT="pret-personnel-wallonie">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="8F6FFFD9-909A-434E-A74B-E9C5F164B0FD" MODIFIED="1452596228674" TEXT="principales-banques-belges">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228674" ID="432DF6C7-7993-48B3-A588-47ACB1CFB855" MODIFIED="1452596228674" TEXT="Cetelem">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="D259D364-057B-46B4-B191-C4B87948C979" MODIFIED="1452596228674" TEXT="Cofidis">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="87ADE021-AA3C-4DF2-86E4-0E332AA332AD" MODIFIED="1452596228674" TEXT="buy way">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="9D9718FD-9A37-43AB-8044-00EC2D45CF57" MODIFIED="1452596228674" TEXT="beobank">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228674" ID="C496A101-CAEB-41C7-8074-A5C4BFDD0B39" MODIFIED="1452596228674" TEXT="creditpolis">
-<edge COLOR="#ffe57f"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="8590F0E8-2792-43E0-9754-3AB661892B42" MODIFIED="1452596228675" POSITION="left" TEXT="ouverture-credit">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228675" ID="FA565EC3-6A6A-4467-91DD-7C4C0074E03C" MODIFIED="1452596228675" TEXT="ligne-credit-pro">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="C4E4D803-289F-4454-A519-C11F0A5F8A54" MODIFIED="1452596228675" TEXT="revolving">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="EC185F21-C7F5-4C5A-A535-0660DFBA862D" MODIFIED="1452596228675" POSITION="left" TEXT="maison">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228675" ID="77DBC908-9D63-47A5-90F8-226A76A3044E" MODIFIED="1452596228675" TEXT="renovation">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="D716D3CC-FED9-4684-8071-21E66FEE3C87" MODIFIED="1452596228675" TEXT="energie">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="AC36A9CF-558D-4351-879F-47118F1FD955" MODIFIED="1452596228675" TEXT="pret-hypothecaire">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-<node COLOR="#000000" CREATED="1452596228675" ID="BC04961C-A871-4049-865C-E893F3CA311B" MODIFIED="1452596228675" TEXT="pret-hypothecaire-125">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="976CE76A-F0B6-425B-A73A-C0F17372DE4F" MODIFIED="1452596228675" TEXT="credit-pont">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228675" ID="EC64698E-8BE8-4F1A-8D3B-2B8C8D4D56D2" MODIFIED="1452596228675" TEXT="frais-notaire">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-<node COLOR="#000000" CREATED="1452596228676" ID="4E1E0E2D-27B9-4DED-A89E-FA56F4D05FF1" MODIFIED="1452596228676" TEXT="fixe-ou-variable">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1452596228676" ID="65E970B2-D1BC-4172-9143-9EF4F6845415" MODIFIED="1452596228676" TEXT="mobilier">
-<edge COLOR="#cc66ff"/>
-<font NAME="Dialog" SIZE="12"/>
-</node>
+<node CREATED="1454539477600" ID="ID_412547353" MODIFIED="1454572649208" POSITION="right" TEXT="simulateur-pret-rapide">
+<attribute NAME="kw" VALUE="simulateur pr&#xea;t personnel"/>
+<attribute NAME="kw" VALUE="simulateur pr&#xea;t"/>
+<attribute NAME="expression" VALUE="rapide"/>
+<attribute NAME="expression" VALUE="rapidement"/>
 </node>
 </node>
 </map>

@@ -1,9 +1,10 @@
 {
     "menu": {
-        "rachat-credit": "/rachat-credit.html",
-        "pret-voiture-moto": "/pret-voiture-moto.html",
-        "pret-personnel": "/pret-personnel.html",
-        "ouverture-credit": "/ouverture-credit.html",
-        "maison": "/maison.html"
+        "pret-personnel-belgique": "/pret-personnel-belgique.html",
+        "pret-personnel-sans-justificatif": "/pret-personnel-sans-justificatif.html",
+        "calculette-pret": "/calculette-pret.html",
+        "financer-projet-rapidement": "/financer-projet-rapidement.html",
+        "preparer-dossier-credit-rapide": "/preparer-dossier-credit-rapide.html",
+        "simulateur-pret-rapide": "/simulateur-pret-rapide.html"
     }
 }
