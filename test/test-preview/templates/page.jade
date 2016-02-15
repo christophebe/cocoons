@@ -8,3 +8,6 @@ block content-title
 block content
   
     != page.content
+    if widgets.afterContent
+      each widget, index in widgets.afterContent
+          != widget.html

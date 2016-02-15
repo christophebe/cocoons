@@ -38,6 +38,12 @@
         ]
 
       },
+      {"region" : "afterContent",
+        "widgets" : [
+          {"order" : 1, "name" : "text.html", "files" : "markdown"}        
+        ]
+
+      },
 
       {"region" : "sidebar",
        "widgets" : [

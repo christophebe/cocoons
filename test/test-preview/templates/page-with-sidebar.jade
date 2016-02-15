@@ -11,3 +11,6 @@ block content
       each widget, index in widgets.beforeContent
           != widget.html
     != page.content
+    if widgets.afterContent
+      each widget, index in widgets.afterContent
+          != widget.html
