@@ -1,6 +1,6 @@
 {
   "siteName"        : "Sample Site",
-  "country"         : "com", 
+  "country"         : "com",
   "hostname"        : "localhost",
   "port"            : 8080,
   "useProxy"        : false,

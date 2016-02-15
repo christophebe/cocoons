@@ -1,0 +1,18 @@
+div(style="padding-bottom:20px" itemscope='itemscope', itemtype='http://schema.org/VideoObject')
+
+  if (widget.properties.name)
+    meta(itemprop='name', content='#{widget.properties.name}')
+
+  if (widget.properties.description)
+    meta(itemprop='description', content='#{widget.properties.description}')
+
+  if (widget.properties.duration)
+    meta(itemprop='duration', content='#{widget.properties.duration}')
+
+  if (widget.properties.thumbnail)
+    meta(itemprop='thumbnail', content='#{widget.properties.thumbnail}')
+
+  if (widget.properties.regionsAllowed)
+    meta(itemprop='regionsAllowed', content='#{widget.properties.regionsAllowed}')
+  .responsive-video
+    iframe(src=widget.properties.src, frameborder='0', allowfullscreen=widget.properties.allowfullscreen==true)

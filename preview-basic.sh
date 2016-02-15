@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nodemon ./bin/exec.js preview ./site-templates/basic/ -e js,json,jade | bunyan -l debug
+nodemon ./bin/exec.js preview ./test/test-preview/ -e js,json,jade | bunyan -l debug

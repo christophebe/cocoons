@@ -1,0 +1,18 @@
+if config.menu
+  // add/remove navbar-inverse in the class list to switch the menu background style
+  .row
+    div(class="navbar navbar-default navbar-inverse navbar-fixed-top", role="navigation")
+      div(class="container")
+            div(class="navbar-header")
+              button( type="button", class="navbar-toggle", data-toggle="collapse", data-target=".navbar-collapse")
+                span(class="sr-only") Toggle navigation
+                span(class="icon-bar")
+                span(class="icon-bar")
+                span(class="icon-bar")
+              a(class="navbar-brand", href="/")= config.siteName
+
+            div(class="collapse navbar-collapse")
+              ul(class="nav navbar-nav")
+                each val, index in config.menu
+                  li(class="active")
+                    a(href="#{val}")=index

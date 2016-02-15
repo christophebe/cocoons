@@ -16,6 +16,7 @@ describe('Test Create Site', function() {
           rimraf(TEST_SITE_FOLDER, function(error){
               done(error);
           });
+           
     });
 
     describe('Basic site creation', function(done){
@@ -26,7 +27,7 @@ describe('Test Create Site', function() {
             create.createSite(siteTemplateName, TEST_SITE_FOLDER, function(error, status) {
                 if (error) {
                   console.log("Error during the creation of the site : " + error );
-                  done(error)
+                  done(error);
                 }
                 else {
                   console.log("The site is correctly created in " + status);

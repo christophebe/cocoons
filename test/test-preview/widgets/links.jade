@@ -1,0 +1,11 @@
+div.sidebar-module
+  h4= widget.properties.title
+  hr
+  ol.list-unstyled
+    each url, index in widget.properties.urls
+      li
+        if url.rel
+          a(href=url.href rel=url.rel)= url.anchor
+        else 
+          a(href=url.href)= url.anchor
+        

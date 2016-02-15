@@ -1,0 +1,15 @@
+
+
+doctype html
+html
+  include partials/header
+
+  body
+    include partials/menu
+    div.container
+      block content-title
+      div.row
+        block content
+      include partials/footer
+
+    include partials/scripts

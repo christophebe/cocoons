@@ -1,0 +1,13 @@
+extends layout-with-sidebar
+
+block content-title
+  if (page.properties.h1)
+    h1= page.properties.h1
+    hr
+
+block content
+  div(class="col-sm-8 blog-main")
+    if widgets.beforeContent
+      each widget, index in widgets.beforeContent
+          != widget.html
+    != page.content

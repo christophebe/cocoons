@@ -1,0 +1,17 @@
+.row.featurette
+  if (widget.properties.image.align=="left")
+    .col-md-5
+      img.featurette-image.img-responsive(src=widget.properties.image.src, alt=widget.properties.alt)
+    .col-md-7
+      h2.featurette-heading= widget.properties.title
+        span.text-muted= widget.properties.subtitle
+      each text, index in widget.properties.texts
+        p.lead= text
+  else
+    .col-md-7
+      h2.featurette-heading= widget.properties.title
+        span.text-muted= widget.properties.subtitle
+      each text, index in widget.properties.texts
+        p.lead= text
+    .col-md-5
+      img.featurette-image.img-responsive(src=widget.properties.image.src, alt=widget.properties.alt)

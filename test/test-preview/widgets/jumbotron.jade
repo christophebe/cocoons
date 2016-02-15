@@ -1,0 +1,9 @@
+.jumbotron
+  h1= widget.properties.title
+  each lead, index in widget.properties.leads
+    p.lead= lead
+  p
+    if (widget.properties.link.onclick)
+      a.btn.btn-lg.btn-success(href=widget.properties.link.href, role='button', onclick=widget.properties.link.onclick)= widget.properties.link.anchor
+    else
+      a.btn.btn-lg.btn-success(href=widget.properties.link.href, role='button')= widget.properties.link.anchor

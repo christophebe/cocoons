@@ -1,0 +1,225 @@
+{
+  "siteName"        : "Sample Site",
+  "country"         : "com",
+  "hostname"        : "localhost",
+  "port"            : 8080,
+  "useProxy"        : false,
+  "source"          : "src",
+  "target"          : "target",
+  "public"          : "public",
+  "favicon"         : "/images/favicon.png",
+  "previewEngine"   : "../fs/preview-fs.js",
+
+  "mindmapEngine"   : "../fs/mindmap-fs.js",
+  "mindmapConverter": "../mindmap/opml-converter.js",
+
+  "cloakingEngine"  : "../fs/cloaking-engine.js",
+
+  "templateFolder"  : "templates",
+  "defaultTemplate" : "page.jade",
+  "templateEngine"  : "jade",
+
+  "homePage"        : "index.html",
+  "notFoundPage"    : "404.html",
+  "errorPage"       : "500.html",
+
+  "menu" : {
+      "Markdown" : "/markdown.html",
+      "Carousel" : "/carousel.html",
+      "Widget demo" : "all-widgets.html"
+  },
+
+  "widgetFolder" : "widgets",
+
+  "widgets" : [
+      {"region" : "beforeContent",
+        "widgets" : [
+          {"order" : 1, "name" : "adsense.html"}
+        ]
+
+      },
+
+      {"region" : "sidebar",
+       "widgets" : [
+        {"order" : 1,
+         "name" : "contact.jade",
+         "urls" : "^\/markdown-2.html$"
+
+        },
+
+        {"order" : 2, "name" : "call2action-sidebar.jade",
+          "properties" : {
+            "intro" : "Hello World ! This a call to action widget",
+            "link" : {
+              "anchor" : "Click me !",
+              "href"  : "/"
+            }
+          }
+        },
+        {"order" : 3, "name" : "links.jade",
+           "properties" : {
+            "title" : "Follow us ! ",
+            "urls"  : [
+              {"href" : "https://github.com/christophebe/cocoons", "anchor" : "GitHub" },
+              {"href" : "https://twitter.com/cocoons_io", "anchor" : "Twitter" },
+              {"href" : "/out/external-url.html", "anchor" : "No following link & 302", "rel" : "nofollow" }
+            ]
+          }
+        },
+        {"order" : 4, "name" : "image.jade",
+          "properties" : {
+             "src" : "/images/200x200-image.jpg",
+             "alt" : "This is an Ads ! "
+           }
+        }
+
+       ]
+      },
+      {
+       "region" : "scripts",
+       "widgets" : [
+         {"order" : 1, "name" : "google-analytics.jade",
+           "properties" :  {
+             "gaid" : "UA-xxxx"
+           }
+
+         }
+       ]
+      }
+  ],
+
+  // Redirects & cloaking
+  // Uncomment cloaking rules
+
+
+  /*
+  "cloaks" : [
+
+      // Simple 301
+      {
+        "name" : "301",
+        "rewrites" : [
+          {
+            "from" : "^index.html$",
+            "to" : "/",
+            "type" : "301"
+          }
+        ]
+      },
+      // 302, no follow
+      {
+        "name" : "302 - Demo affiliation link",
+        "rewrites" : [
+          {
+            "from" : "^out/external-url.html$",
+            "to" : "http://www.google.com", // or any kind of affiliate link
+            "type" : "302"
+          }
+        ]
+      },
+      // Say welcome to Google with nice content - based on user agent & ip
+      {
+        "name" : "Display another content to Google",
+        "conditions" : {
+          // "dns" : ["(g|G)oogle(b|B)ot"]
+          // An alternative to the reverse dns
+          "userAgents" : ["(g|G)oogle(b|B)ot"],
+          "ips"        : ["66\\.249\\.[\\d]{1,3}\\.[\\d]{1,3}", "72\\.14\\.[\\d]{1,3}\\.[\\d]{1,3}"]
+
+        },
+
+        "rewrites" : [
+          {
+            "from" : "^markdown.html$",
+            "to" : "/cloaking/cloaked-content.html",
+            "type" : "replace"
+          },
+          {
+            "from" : "^\/$",
+            "to" : "/cloaking/homepage-for-google.html",
+            "type" : "replace"
+          }
+        ]
+      },
+      // Don't diplay the nice content to the human - based on user agent & ip
+      {
+        "name" : "Don't show specific content to the humans",
+        "conditions" : {
+          //"dns" : ["^((?!(g|G)oogle(b|B)ot).)*$"]
+          // An alternative to the reverse dns
+          "userAgents" : ["^((?!(g|G)oogle(b|B)ot).)*$"],
+          "ips"        : ["^((?!(66\\.249|72\\.14)\\.[\\d]{1,3}\\.[\\d]{1,3}).)*$"],
+          "or"         : true
+        },
+        "rewrites" : [
+          {
+            "from" : "^cloaking",
+
+            // with htaccess, it should the 404 page here
+            // in the preview mode, the attribute 'to' is not necessary
+            "to" : "404.html",
+            "type" : "404"
+          }
+        ]
+      },
+      // Say welcome to Google with nice content - based on dns
+      {
+        "name" : "Display another content to Google - reverse dns",
+        "conditions" : {
+            "dns" : ["(g|G)oogle(b|B)ot", "msn", "microsoft", "yahoo"]
+        },
+
+        "rewrites" : [
+          {
+            "from" : "^markdown-reverse.html$",
+            "to" : "/cloaking/cloaked-content.html",
+            "type" : "replace"
+          }
+        ]
+      },
+      // Don't diplay the nice content to the human - based on dns
+      {
+        "name" : "Don't show specific content to the humans - reverse dns",
+        "conditions" : {
+          "dns" : ["^((?!(((g|G)oogle(b|B)ot)|msn|microsoft|yahoo)).)*$"]
+        },
+        "rewrites" : [
+          {
+            "from" : "^cloaking-dns",
+            // with htaccess, it should the 404 page here
+            // in the preview mode, the attribute 'to' is not necessary
+            "to" : "404.html",
+            "type" : "404"
+          }
+        ]
+      }
+
+  ],
+  */
+
+  "htaccess" : {
+    "generate" : true,
+    "hideDirectories" : true,
+    "denyAccessToHtaccess" : true,
+    "rewrite" : {
+      "blockAccessHiddenDirectories" : true,
+      "withwww" : false
+    },
+    /*"authorizedFileTypes" : "html|json|xml|css|js|jpe?g|png|gif|pdf|docx|rtf|xls|odf|zip|rar",*/
+    /*"blockedIps" : ["111.111.11.11", "222.222.22.22"], */
+    "browserCache" : true
+
+  },
+
+  "ftp" : {
+    "host"                : "hostname", //using the ip adress is not working for the moment
+    "port"                : 21,
+    "user"                : "username",
+    "password"            : "password",
+    "folder"              : "folder", // Not mandatory
+    "deleteExistingfiles" : true
+
+
+  }
+
+}
