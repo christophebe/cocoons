@@ -24,6 +24,10 @@ if parentPage
 
 != "\n\n"
 
+if subTitles 
+  each subTitle in subTitles
+    != subTitle + "\n\n"
+
 if children
   != "## If needed, add a title here (don't remove ##)\n"
   each child in children

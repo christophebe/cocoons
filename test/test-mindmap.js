@@ -33,9 +33,9 @@ describe('Test Mindmap', function(){
           });
      });
 
-     it.skip('Generate a site from a mindmap - freemind file', function(done) {
+     it.only('Generate a site from a mindmap - freemind file', function(done) {
         this.timeout(1000000);
-         var mindmapFilePath = "test/site-test-mindmap/pret.mm";
+         var mindmapFilePath = "test/site-test-mindmap/credit-auto.mm";
 
          var config =  {
            mindmapConverter : "../mindmap/freemind-converter.js",
@@ -43,7 +43,7 @@ describe('Test Mindmap', function(){
            templateFolder : "templates",
            mindmapMardownTemplate : "mindmap/markdown-fr.jade",
            mindmapJsonTemplate : "mindmap/json-fr.jade",
-           mindmapPrefix : "gg/content",
+           //mindmapPrefix : "gg/content",
            country : "be",
            language : "fr"
          };

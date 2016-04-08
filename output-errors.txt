@@ -1,0 +1,891 @@
+~/nodejs/_MODULES/cocoons/cocoons-cms : mocha
+Cocoons log file /Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/logs/debug.log
+
+
+  Test Mindmap
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"The site structure will be generated into : test/site-test-mindmap/src/gg/content","time":"2016-02-11T21:33:35.207Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Compile the jade templates that will be used to generate the markdown files","time":"2016-02-11T21:33:35.210Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Compile the jade templates that will be used to generate the json files","time":"2016-02-11T21:33:35.211Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Read the mindmap file","time":"2016-02-11T21:33:35.211Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Convert the mindmap file","time":"2016-02-11T21:33:35.339Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Generate the site","time":"2016-02-11T21:33:35.343Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create directory : test/site-test-mindmap/src/gg/content","time":"2016-02-11T21:33:35.344Z","v":0}
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'prêt personnel rapide,prêt rapide,prêt personnel immédiat,pret personnel immediat,crédit immédiat,pret 24h' - nbr of results : 50
+load content : http://www.creditpolis.be/fr/credit-rapide
+load content : http://www.moncreditrapide.info/
+load content : http://www.carrefourfinance.be/pret_pour_tout.html
+load content : https://www.credit24.ca/
+load content : http://www.e-konomiste.be/article-economique/pret-personnel-rapide-avec-reponse-immediate/
+load content : http://www.creditneto.net/credit-24h.html
+load content : https://www.ferratum.fr/
+load content : https://www.buyway.be/
+load content : http://www.laris-preteur.com/
+load content : http://pret-personnel-comparatif.com/content/2-pret-personnel-immediat.html
+load content : http://forum.sports-sante.com/j-ai-besoin-d-argent-t2895.html
+load content : https://www.ferratum.be/fr/nos-micro-prets
+load content : https://www.cashper.fr/credit-24-heures
+load content : http://www.cpe-credit.com/solutions-credit/liquidite/express
+load content : http://www.cpe-credit.com/solutions-credit/liquidite/pret-temperament
+load content : http://www.euro-finances.be/fr/ouverture-credit-master-card.aspx
+load content : https://www.credit-direct.ch/
+load content : https://www.facebook.com/Pr%C3%AAt-entre-particulier-en-24h-1563660173882306/
+load content : http://sophienathaliemerlevede.centerblog.net/8-offres-de-prets-et-financement-sans-frais-dans-24h
+load content : http://www.creditclubloans.com/faq-fr.php
+load content : http://service24.orange.fr/
+load content : http://www.usaintlouis.be/sl/bib_pret.html
+load content : http://www.solufinance.be/
+load content : http://www.vipa.biz/credit/pret-a-temperament
+load content : http://www.24h-lemans.com/fr/actualites/rene-rast-audi-fin-pret-pour-les-24-heures-du-mans-video-_2_1_1707_20435.html
+load content : http://www.carrefour-banque.fr/credit/pret-personnel/loisirs
+load content : http://pretsrapide.ca/
+load content : http://www.prets-sur-gage.com/pret-sur-gage/
+load content : https://www.credit-pret-en-ligne.fr/credit-urgence/credit-urgence.php
+load content : http://solerfinancecreditrapide.over-blog.com/2016/01/offre-de-pret-entre-particulier-serieux-et-honnete-et-rapide-en-24h.html
+load content : http://www.monportailfinancier.fr/article/credit-rapide-en-24h/
+load content : http://www.kijiji.ca/v-services-fianciers/ville-de-montreal/besoin-dargent-pret-24h-loan-need-money-prive-private/558521433
+load content : http://www.infirmiers.com/forum/offre-pret-entre-particulier-serieux-rapide-24h-t153421.html
+load content : http://www.renault-retail-group.fr/landingpage/vpp-zoe.html
+load content : http://www.purepeople.com/article/patrick-dempsey-le-dr-mamour-pret-a-affronter-david-hallyday-aux-24h-du-mans_a143038/1
+load content : http://www.olivierdepoorter.com/2015/04/abandon-pour-le-3-art-aux-24h-du-mans-2015.html
+load content : https://kerawa.com/2702479_pret-d-argent-entre-particulier-urgent-et-rapide-dans-24h
+load content : http://financementexpress.com/
+load content : http://www.a-tout-finance.com/2015/08/nous-somme-a-votre-disposition-24h-24.html
+load content : http://bbernardalain.wix.com/pret-investissement
+load content : http://www.arp79.com/index.php/archives-quoi-de-neuf/2-24h-vtt-2015-pret-pour-un-nouveau-tour
+load content : http://www.endurance-info.com/fr/24h-daytona-le-moteur-mazda-mzr-raer-pret-pour-ses-debuts-en-course/
+load content : https://www.pretpouraider.com/
+load content : http://www.2ememain.be/entreprise-commerce/transactions-professionnelles/participations/offre-pret-entre-particulier-24h-sur-229999865.html
+load content : http://www.purebreak.com/news/24-heures-chrono-jack-bauer-pret-a-debarquer-au-cinema/77684
+load content : http://www.odph.be/contacter-office-du-pret-hypothecaire-pour-questions-informations.html
+load content : http://www.dhnet.be/lifestyle/etes-vous-pret-a-travailler-24-heures-sur-24-sans-etre-paye-541ad73335708a6d4d5731d5
+load content : http://www.serrurerielockey.be/
+load content : http://comment-apprendre.coursgratuits.net/comments.php?DiscussionID=39884
+load content : http://www.tahiti-infos.com/classifieds/Offre-de-pret-En-24h-l-argent-sur-votre-compte-en-toute-securite_pa200712.html
+Impossible to load the content for : http://www.a-tout-finance.com/2015/08/nous-somme-a-votre-disposition-24h-24.html - Http status : 403
+Impossible to load the content for : http://www.olivierdepoorter.com/2015/04/abandon-pour-le-3-art-aux-24h-du-mans-2015.html - Http status : 403
+Impossible to load the content for : http://solerfinancecreditrapide.over-blog.com/2016/01/offre-de-pret-entre-particulier-serieux-et-honnete-et-rapide-en-24h.html - Http status : 403
+Impossible to load the content for : http://www.2ememain.be/entreprise-commerce/transactions-professionnelles/participations/offre-pret-entre-particulier-24h-sur-229999865.html - Http status : 404
+Impossible to load the content for : http://www.tahiti-infos.com/classifieds/Offre-de-pret-En-24h-l-argent-sur-votre-compte-en-toute-securite_pa200712.html - Http status : 404
+Impossible to load the content for : http://financementexpress.com/ - error : Error: connect ETIMEDOUT 108.60.21.60:80
+End of loading all contents
+Calculate the tf.idf ....
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/index.md","time":"2016-02-11T21:35:01.099Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/index.json","time":"2016-02-11T21:35:01.099Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create directory : test/site-test-mindmap/src/gg/content/pret-personnel-belgique","time":"2016-02-11T21:35:01.101Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create directory : test/site-test-mindmap/src/gg/content/calculette-pret","time":"2016-02-11T21:35:01.101Z","v":0}
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'prêt personnel sans justificatif,pret sans justificatif' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'financer projet rapidement' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'dossier crédit,préparer dossier crédit' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'simulateur prêt personnel,simulateur prêt' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'prêt personnel belgique,pret personnel belgique' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'calculette crédit,calculette prêt' - nbr of results : 50
+load content : http://www.trouverdelargent.com/
+load content : http://www.challenges.fr/entreprise/20120628.CHA8209/le-crowdfunding-ou-comment-financer-un-projet-sans-l-aide-d-une-banque.html
+load content : https://www.mymajorcompany.com/about/projects
+load content : http://www.petite-entreprise.net/P-277-88-G1-comment-financer-sa-creation-d-entreprise.html
+load content : http://lentreprise.lexpress.fr/creation-entreprise/etapes-creation/trouver-de-l-argent-pour-creer-son-entreprise_1531991.html
+load content : https://www.apce.com/pid221/5-trouver-des-financements.html?espace=1&tp=1
+load content : https://agirandco.com/about/projects
+load content : http://financeparticipative.org/qui-sommes-nous/membres-association/les-plateformes-de-dons-avec-ou-sans-contrepartie/
+load content : http://www.apptamin.com/fr/blog/financer-app-crowdfuning/
+load content : http://www.unenfantparlamain.org/projets/projets-financer
+load content : http://econosoc.be/?rub=actualite&page=financement_participatif
+load content : http://forum.sports-sante.com/comment-obtenir-un-pret-professionnel-sans-apport-personnel-rapidement-t7434.html
+load content : https://www.credit.fr/empruntez
+load content : http://www.studyrama.com/vie-etudiante/budget-etudiant-financer-ses-etudes/trouver-un-sponsor/comment-trouver-un-sponsor-pour-votre-projet-89061
+load content : http://www.unesco.org/csi/pub/info/seacam10.htm
+load content : https://www.financementpme.com/
+load content : http://www.agenceprogress.be/services/accompagnement-%C3%A0-la-cr%C3%A9ation
+load content : https://www.mipise.com/fr/pages/crowdfunding-dictionnaire
+load content : http://www.raizers.com/financer-son-entreprise-sur-raizers
+load content : http://www.investquebec.com/quebec/fr/financement-pour-vos-projets/economie-verte.html
+load content : http://www.investquebec.com/quebec/fr/financement-pour-vos-projets/releve.html
+load content : http://www.investquebec.com/quebec/fr/financement-pour-vos-projets/croissance.html
+load content : http://avosaffaires.ca/5-types-de-financement-pour-vos-nouveaux-projets-dentreprise/
+load content : http://www.chefdentreprise.com/Chef-d-entreprise-Magazine/Article/LES-BONS-PLANS-POUR-TROUVER-DES-CAPITAUX-36552-1.htm
+load content : http://blog-assurance-voyages.com/2015/08/12/comment-financer-son-projet-de-voyage/
+load content : http://www.1819.be/fr/blog/le-financement-participatif-au-profit-de-la-creativite
+load content : https://www.caisse-epargne.fr/perso-tresorerie.aspx?fctpopup=auth
+load content : http://www.financermastartup.com/comment-choisir-la-bonne-subvention-pour-votre-projet-de-start-up-web/
+load content : http://www.adie.org/nos-actions/microcredit-adie-en-pratique
+load content : http://www.i-etik.com/ecoles
+load content : http://www.creer-mon-business-plan.fr/actualites/crowdfunding.html
+load content : http://www.vinci-immobilier.com/financement-projet-immobilier
+load content : http://tempsreel.nouvelobs.com/abc-lettres/vie-associative/financement-association.html
+load content : https://fr.ulule.com/acopalcaperou-2015/
+load content : http://mde-culture.univ-pau.fr/live/portail-initiatives-etudiantes/financer-projet
+load content : http://pret-aide.net/pret-rsa/
+load content : https://particuliers.societegenerale.fr/emprunter/credits-conso/pret-direct-alterna.html
+load content : http://fr.xetic.org/projets
+load content : http://www.frenchweb.fr/start-me-up-4-conseils-pour-reussir-sa-campagne-de-financement-participatif/188226
+load content : http://www.volontariat.org/cms/wp-content/uploads/2012/04/JR-Guide-des-conseils-et-astuces-pour-financer-son-d%C3%83%C2%A9part.pdf
+load content : http://laruche.wizbii.com/comment-financer-start-up/
+load content : https://www.colleo.fr/
+load content : https://finance.siemens.com/financialservices/fra/sitecollectiondocuments/pdf/sfs-cof_financing_visions_fra.pdf
+load content : http://www.kisskissbankbank.com/help-us-bring-basic-income-closer-to-reality-in-europe--2
+load content : http://ressources.aunege.fr/nuxeo/site/esupversions/abf767af-234b-48ff-b2ec-2488500bc4ef/co/mode.html
+load content : http://www.bep-entreprises.be/actualite/7713/Comment-financer-votre-projet-innovant-?
+load content : http://frenchfunding.fr/la-levee-de-fonds/
+load content : https://www.unilend.fr/les-avantages-dun-emprunt-sur-unilend
+load content : http://societe.galoo.fr/lastuce-pour-financer-vos-projets/2033/
+load content : http://www.trace-ta-route.com/financer-un-tour-du-monde-5-etapes/
+load content : http://www.moncredit.org/
+load content : http://www.creditsansjustificatif.xyz/
+load content : http://www.universdupret.be/fr/pret-a-temperament.aspx
+load content : http://www.meilleurtaux.com/credit-consommation/pret-personnel/pret-personnel-sans-justificatif.html
+load content : http://www.crefibel.be/fr/pret-a-temperament
+load content : http://www.moncreditrapide.info/
+load content : http://www.credits-belgique.be/fr/pages/150/pret-sans-affectation.html
+load content : http://www.astuce-credit.be/pret-personnel.php
+load content : http://www.eig-finances.com/credit-a-la-consommation/credit-a-la-consommation-sans-justificatif/
+load content : http://pret-aide.net/pret-sans-justificatif-salaire/
+load content : http://www.gway.be/pret-personnel
+load content : http://forum.sports-sante.com/credit-sans-justificatif-de-revenu-t3263.html
+load content : http://www.pret-personnel-sans-justificatif.com/
+load content : http://www.monportailfinancier.fr/credit-sans-justificatif/
+load content : http://www.cofinoga.fr/credit/credit-sans-justificatif
+load content : http://www.cpe-credit.com/solutions-credit/liquidite/tous-motifs
+load content : http://www.credit-rapide-sans-justificatif.com/
+load content : http://www.carrefour-banque.fr/credit
+load content : http://www.financo.fr/credit/financement/simulation-credit-projet
+load content : http://www.e-konomiste.be/article-economique/credit-renouvelable-sans-fiche-de-paie/
+load content : http://credit-sans-justificatif.info/
+load content : http://credit-sans-justificatif.info/credit-consommation/
+load content : http://www.e-konomiste.be/article-economique/faire-un-credit-sans-justificatif-de-revenu-possible/
+load content : http://creditsocial.net/credit-revolving-sans-fiche-de-paie/
+load content : http://credifina.com/pret-sans-justificatif/
+load content : http://www.mistercredit.be/
+load content : http://www.capitaine-credit.com/credit-sans-justificatif/
+load content : http://www.cecfinance.be/prets-a-temperament/besoin-de-liquidite-factures-inattendues-sans-justificatifs
+load content : http://pret-personnel-comparatif.com/content/2-1-sans-justificatif.html
+load content : http://www.meilleure-banque.com/petit-credit-sans-justificatif-rapide-et-pas-cher-chomeur-rsa-ficp-petit-revenu-cdd
+load content : http://credimania.com/credit-sans-justificatif-ni-fiche-de-paie/
+load content : https://www.gmf.fr/epargne-credit/credits
+load content : http://www.simulationpret.be/credit-rapide.php
+load content : https://www.banque-accord.fr/site/b/credits/credit-renouvelable-accordlibre.html
+load content : http://particuliers.attijariwafa.net/fr/emprunter/reserve_argent.html
+load content : http://xn--crditgratuit-ceb.com/pret-personnel-sans-justificatif-des-salaires-credit-renouvelable-reserve-dargent-rapide/
+load content : https://www.groupama.fr/banque/simulation-credit-renouvelable.html
+load content : https://www.cashper.fr/pret-sans-justificatif
+load content : http://solucredit.be/
+load content : http://www.cnasea.fr/credit-personnel/justificatifs
+load content : http://www.creditrenouvelableenligne.net/
+load content : http://g3univ.org/docs/credit-sans-justificatif-choisissez-le-pret-personnel/
+load content : http://credit-personnel.be/pret-personnel/
+load content : http://www.credit-conso.org/pret-personnel.htm
+load content : https://www.midfinance.be/news/pret-a-temperament/pret-personnel-sans-justificatif-218.html
+load content : https://www.palatine.fr/credits/pret-personnel.html
+load content : http://ekonomia.fr/985/credit-sans-justificatif/
+load content : https://www.boursedescredits.com/guide-credit-justificatif-267.php
+load content : http://droit-finances.commentcamarche.net/forum/affich-4060045-credit-revolving-sans-bulletin-salaire
+load content : http://www.pret.be/pret-temperament/pret-affectation
+load content : http://www.meilleurtaux.com/credit-immobilier/simulation-de-pret-immobilier/calcul-des-mensualites.html
+load content : http://www.guide-epargne.be/epargner/simulation-creditlogement.html
+load content : http://www.pim.be/pimfichier/mensuappim.html
+load content : https://www.labanquepostale.fr/particulier/Outils/simulateurs/calculette_pret_immo.pretimmobilier.html
+load content : http://www.lafinancepourtous.com/calculateurs/credit/calculateur_credit-immo.php
+load content : http://www.la-calculatrice.com/calcul-credit.html
+load content : http://www.pap.fr/argent/calculettes
+load content : http://www.empruntis.com/financement/credit-immobilier-simulation.php
+load content : http://www.cyberpret.com/calculettesimple.php3
+load content : http://www.odph.be/simulation-de-calcul-d-un-pret-hypothecaire-connaitre-sa-mensualite.html
+load content : https://e-immobilier.credit-agricole.fr/Nos-simulateurs/Simulation-pret-immobilier-en-ligne
+load content : http://www.calculatricecredit.com/
+load content : http://www.calculatricecredit.com/mensualite-emprunt.php
+load content : http://www4.bmo.com/popup/prets/Calculator.html
+load content : http://financer.seloger.com/160577/226741/cnt.htm
+load content : http://www.calculette.net/interet.php
+load content : http://www.scotiabank.com/ca/fr/0,,8167,00.html
+load content : http://www.cetelem.fr/credit/credit-immobilier/calculatrices/calcul-dynamique/
+load content : http://www.boursorama.com/banque-en-ligne/credits/simulateur_financement.html
+load content : http://www.commentcamarche.net/download/telecharger-34057835-calcul-de-pret
+load content : http://www.cbanque.com/credit/calculatrice/emprunt.php
+load content : http://www.anil.org/outils-de-calcul/echeancier-dun-pret/
+load content : http://www.acecredit.fr/fr/calcul-pret-immobilier.html
+load content : https://www.desjardins.com/outils/calculette-remb-pret/
+load content : https://www.multi-prets.com/fr/Outils/Calculatrices
+load content : https://www.banquelaurentienne.ca/fr/calculettes/pret_hypothecaire.sn
+load content : http://www.cafpi.fr/calcul-pret-infine.php
+load content : https://www.service-public.fr/particuliers/vosdroits/R2924
+load content : http://www.remax-quebec.com/fr/calculette.rmx?price=
+load content : http://www.actufinance.fr/outils/simulateur-emprunt.html
+load content : http://www.fiches-auto.fr/articles-auto/6-outils-pratiques-pour-votre-credit-auto/s-50-calculer-votre-credit-auto-en-3-clics.php
+load content : http://www.pret-accession-sociale.com/Calcul-capacite-credit-immobilier.html
+load content : http://www.frizou.org/utilitaires/12-pret-perso.html
+load content : http://www.comparateur-credits.net/
+load content : http://www.lesiteimmo.com/financement/simulation-de-pret-immobilier/calcul-des-mensualites
+load content : http://www.rbcbanqueroyale.com/pretpersonnel/payment/
+load content : http://www.bien-emprunter.fr/1-2-39-40/Calculette-financiere.htm
+load content : https://credit-immobilier.secure.lcl.fr/ELO-web/lcl-simulator/MonthlyInstalmentAmountSimulator.html
+load content : http://www.ericbrassard.com/calculatrices/default.aspx
+load content : http://www.lefigaro.fr/simulation-credit/
+load content : http://www.mediatix.com/simulateur-financier/pret-paliers.php
+load content : https://www.immotheker.be/FR/Modules_de_calcul/Credit_hypothecaire/
+load content : http://www.pret123.com/
+load content : http://www.lacentraledefinancement.fr/pret-credit-immobilier/les-simulateurs-de-prets-et-de-credit-immobilier/simulateur-tableau-amortissement-de-pret-immobilier/
+load content : http://www.cession-commerce.com/outils/calcul-de-remboursement-d-un-pret.html
+load content : http://immobilier.creditfoncier.fr/calculette-credit-immobilier/simulateur-pret-emprunt-immobilier.htm
+load content : http://www.gratuiciel.com/telecharger/calcul-de-pret-20303.html
+load content : http://www.creditlogement.fr/Simulateurs_ChoixDuBareme.asp?arbo=2
+load content : http://www.grouperf.com/calculettes/
+load content : http://www.pretatauxzeroplus.com/calcul-simulation/
+load content : http://www.mistercredit.be/
+load content : https://www.cofidis.be/fr/pret-personnel.php
+load content : http://www.guide-du-credit.be/FR/Pret-Personnel.awp
+load content : http://www.crefibel.be/fr/pret-personnel-classique
+load content : http://www.guide-epargne.be/epargner/comparer/emprunt-pas-cher.html
+load content : http://www.gway.be/pret-personnel
+load content : http://www.bemoney.be/
+load content : http://www.simulationpret.be/
+load content : http://www.creditpolis.be/
+load content : https://www.axabank.be/fr/emprunter/pret-personnel
+load content : http://www.credit-conso.be/
+load content : http://www.astuce-credit.be/pret-personnel.php
+load content : http://www.adlfinance.com/le-pret-personnel-a-69/
+load content : http://credit-personnel.be/pret-personnel/
+load content : http://www.webwatch.be/FR/economie-entreprises.cfm/services-financiers/credits-prets-financement/
+load content : http://www.proxi-finances.be/
+load content : http://www.test-achats.be/argent/cartes-de-credit/calculateur/prets-personnels
+load content : https://www.axa.be/ab/FR/particuliers/prets-et-credits/Pret-personnel/Pages/default.aspx
+load content : https://www.belfius.be/retail/fr/produits/emprunter/autres-depenses/pret-personnel/index.aspx
+load content : http://www.cpe-credit.com/solutions-credit/liquidite/pret-personnel
+load content : http://www.credits-belgique.be/fr/pages/153/demande-de-pret-personnel-credit-en-ligne.html
+load content : https://www.ing.be/fr/retail/lending/others/household-spending
+load content : https://www.bpostbanque.be/pics/BE/P/fr/anon/priv/prod/credit/pret-temperament/pret-personnel.asp
+load content : http://www.partners-finances.be/
+load content : http://pret-personnel-comparatif.com/content/pret-personnel-belgique.html
+load content : https://www.cetelem.be/
+load content : http://www.e-konomiste.be/article-economique/pret-personnel-en-ligne-une-reponse-immediate/
+load content : http://cash48.eu/
+load content : http://www.pret.be/
+load content : http://www.topcredit.be/offres-de-credit/pret-personnel
+load content : http://www.kredietpartner.be/fr/choisissez-votre-cr%C3%A9dit/pr%C3%AAt-personnel-%C3%A0-temperament
+load content : http://www.credit-direct.be/
+load content : http://www.pret-travaux.be/pret-personnel.php
+load content : https://www.auxifina.be/
+load content : https://www.santander.be/fr/santander/santander-consumer.aspx
+load content : http://www.emploi.belgique.be/defaultTab.aspx?id=3470
+load content : http://www.credit-conseil.be/credit_conseil_pret_personnel.html
+load content : http://www.pretservice.be/credit-namur.htm
+load content : http://www.pretplus.be/fr/banque-nationale-belge.aspx
+load content : http://www.zoom-finances.be/index.php?page=41
+load content : https://www.europabank.be/le-pret-personnel-particulier
+load content : http://www.monsfinance.be/credit/assurance/58/pret-personnel.html
+load content : http://www.pret-entre-particuliers.be/
+load content : http://www.arlon-credit.be/
+load content : http://www.euro-finances.be/
+load content : http://www.crefinet.be/pret_personnel.html
+load content : http://www.assurances-credits.be/credit/credits/12/1/pret-personnel.html
+load content : https://www.elantis-direct.be/pr%C3%AAt-personnel
+load content : http://www.hypotheque-conseils.be/
+load content : https://www.midfinance.be/proprietaires-en-difficulte/fiche-nous-avons-une-solution-22.html
+load content : http://www.guide-epargne.be/epargner/simulation-creditlogement.html
+load content : http://www.meilleurtaux.com/credit-immobilier/simulation-de-pret-immobilier/calcul-des-mensualites.html
+load content : http://www.crelan.be/fr/particuliers/loan_simulator
+load content : https://www.belfius.be/retail/fr/produits/emprunter/habitation/credit-hypothecaire/index.aspx
+load content : http://www.creditwallonie.be/pret-hypothecaire/simulateurs/
+load content : https://www.axa.be/ab/FR/particuliers/prets-et-credits/credit-hypothecaire/Pages/simulation-credit-hypothecaire.aspx
+load content : http://www.pim.be/pimfichier/mensuappim.html
+load content : https://www.labanquepostale.fr/particulier/Outils/simulateurs/calculette_pret_immo.pretimmobilier.html
+load content : http://www.odph.be/simulation-de-calcul-d-un-pret-hypothecaire-connaitre-sa-mensualite.html
+load content : http://www.astuce-credit.be/simulation-pret.php
+load content : https://www.ing.be/fr/retail/consumer-loans-overview
+load content : https://www.ing.be/fr/retail/carloan-salesflow
+load content : http://www.deltalloydlife.be/fr/prive/tools/woonkrediet-simulator
+load content : https://particuliers.societegenerale.fr/emprunter/simulateurs/votre_pret_immobilier.html
+load content : http://www.boursorama.com/banque-en-ligne/credits/simulateur_financement.html
+load content : http://www.assurfinance.com/simulateur?product=10
+load content : http://www.elantis.be/fr/simulateur-0
+load content : https://e-immobilier.credit-agricole.fr/Nos-simulateurs/Simulation-pret-immobilier-en-ligne
+load content : http://www.rgf.be/fr/pages/simulation-credit-hypothecaire.aspx
+load content : http://www.credissimo.be/?id=25
+load content : https://www.cofidis.be/fr/simulation-credit.php
+load content : http://www.casden.fr/Simulations/Pret-Immobilier
+load content : https://www.europabank.be/simulation-de-votre-pret-particulier
+load content : https://www.sofinco.fr/simulation-credit.htm
+load content : http://simulateur-pret.be/
+load content : http://www.lefigaro.fr/simulation-credit/
+load content : https://particuliers.lcl.fr/simul-conso-budget/
+load content : https://www.creditmutuel.fr/cmcee/fr/banques/particuliers/logement/financer-acquisition/simulation-credit-immo.html
+load content : https://www.axabank.be/fr/emprunter/emprunter-pour-logement/acheter-construire
+load content : http://www.simulationpret.be/pret-personnel.php
+load content : http://www.actufinance.fr/outils/simulateur-emprunt.html
+load content : http://www.wikifin.be/fr/outils-pratiques/calculateurs/simulateur-immobilier
+load content : http://www.creditfoncier.fr/simulateurs/simulateur-pret-immobilier/simulateur-pret-immobilier.html
+load content : http://www.credal.be/simuler
+load content : http://www.creditlogement.fr/simulateur.asp?arbo=2
+load content : http://www.questionscapitales.be/simulateur-de-credit-hypothecaire/
+load content : https://www.groupama.fr/banque/pret-personnel.html
+load content : http://www.satcl.be/simulation_pret2.asp
+load content : http://www.monfortsa.be/monfort.php?l=fr&pg=39&bank=AGILOR
+load content : http://www.xn--simulateur-prt-2kb.fr/
+load content : https://mabanque.bnpparibas/fr/notre-offre/credits/credits-a-la-consommation
+load content : https://www.beobank.be/fr/Credits/Pret-auto-vehicule-neuf.aspx
+load content : https://www.cbc.be/produits/emprunter/mobilite/pret-voiture-pour-une-nouvelle-auto.html
+load content : http://www.dubois-leulier.be/financement/simulateur-de-credit/
+load content : http://www.pret-accession-sociale.com/Simulation-pret-accession-sociale.html
+load content : http://www.centretoile.be/simulateur.php
+load content : https://www.bred.fr/articles/simulateur-epargne-pret-immobilier
+load content : http://www.cafpi.fr/simulateur-credit-immobilier.php
+load content : http://www.empruntis.com/?code=SEM2CI&page=calcul&act=cap1
+load content : http://www.pap.fr/argent/calculettes
+load content : http://www.lesclesdelabanque.com/Web/Cdb/Entrepreneurs/Content.nsf/DocumentsByIDWeb/6WGEPC?OpenDocument
+load content : http://www.crefinet.be/preparer_son_dossier_credit.html
+load content : http://www.pap.fr/argent/credit-immobilier/constituez-votre-dossier-de-demande-de-pret/a6146
+load content : http://www.linternaute.com/argent/credit/decrocher-un-credit-immobilier/le-dossier-de-pret.shtml
+load content : http://www.explorimmo.com/edito/financer/le-credit-immobilier/detail/article/preparer-son-dossier-de-credit-immobilier.html
+load content : http://www.astuce-credit.be/documents-pret-hypothecaire.php
+load content : https://www.over-blog.com/Comment_bien_preparer_son_dossier_de_pret_bancaire_Conseils_guide_pratique_exemples-1095203869-art146522.html
+load content : https://mcc-info.fsma.be/fr/comment-pr%C3%A9parer-son-dossier-dinscription-en-tant-quinterm%C3%A9diaire-de-cr%C3%A9dit
+load content : http://www.latribune.fr/vos-finances/banques-credit/credit-immobilier/20121218trib000738010/-comment-preparer-un-dossier-d-emprunt-gagnant-.html
+load content : https://e-immobilier.credit-agricole.fr/Premier-Achat/Les-guides/Constituer-son-dossier-de-pret-immobilier
+load content : https://www.ing.be/fr/retail/lending/properties/mortgage-process
+load content : https://www.labanquepostale.fr/particulier/produits/credits_consommation/pret_auto.dossier.html
+load content : http://www.meilleurtaux.com/credit-immobilier/le-guide-de-l-emprunteur/pieces-a-fournir-pour-un-credit-immobilier.html
+load content : http://www.e-konomiste.be/article-economique/comment-preparer-un-dossier-de-pret/
+load content : http://www.generationinc.com/finances/financement/comment-preparer-son-dossier-de-credit-pour-convaincre-des-investisseurs
+load content : http://www.cpe-credit.com/blog/bien-preparer-dossier-credit-travaux
+load content : http://blog.bcome.be/bien-rediger-dossier-demande-de-credit/
+load content : http://www.dynamique-mag.com/article/reussir-dossier-demande-pret-professionnel.4427
+load content : http://www.lesoir.be/312420/article/economie/immo/2013-09-05/obtenir-un-credit-reste-possible-en-belgique-mais-il-faut-presenter-un-dossier-s
+load content : http://www.boursorama.com/actualites/credit-immo-et-auto-entrepreneur-comment-preparer-son-dossier-6bafb79d54b35da601496f0740eb9a48
+load content : http://www.lunion.fr/645771/article/2016-01-23/immobilier-les-bons-conseils-pour-preparer-son-dossier-de-credit
+load content : http://www.webimmo.ma/Financer/Bien-preparer-son-dossier-de-credit-immobilier-au-Maroc
+load content : http://droit-finances.commentcamarche.net/forum/affich-3866051-rachat-de-dossier-de-surendettement
+load content : https://www.immo-particulier.be/conseil/credit-hypothecaire-10-conseils-pour-bien-emprunter/
+load content : http://www.lemonde.fr/reussir-mon-projet-immobilier/article/2015/07/06/primo-accedants-comment-preparer-son-premier-achat-immobilier_4672340_4664018.html
+load content : http://www.inandfi-credits.fr/guides/foire-aux-questions/comment-bien-preparer-mon-dossier-de-financement/
+load content : http://www.tesaffaires.com/index.php/fr/je-veux-obtenir-une-carte-de-credit/comment-faire-pour-consulter-son-dossier-de-credit
+load content : http://www.memoireonline.com/04/12/5648/m_Traitement-d-un-dossier-de-credit-dexploitation-Cas-Banque-exterieure-d-Algerie0.html
+load content : http://rachat-de-credit.de/dossier-de-surendettement.html
+load content : http://www.portaldoconhecimento.gov.cv/bitstream/10961/107/1/Memoria%20master%20jo%C3%A3o.pdf
+load content : https://vimeo.com/130068437
+load content : https://fr.wikipedia.org/wiki/Cr%C3%A9dit_%C3%A0_la_consommation
+load content : http://forum.sports-sante.com/rachat-de-credit-refuse-partout-que-faire-solution-t4460.html
+load content : http://credit-difficile.com/credit-chomeur.html
+load content : http://fr.viadeo.com/fr/questions/repondre/?questionId=002axyiict0cx70
+load content : http://www.kredity.com/pret-personnel-credit-consommation/comment-bien-monter-dossier-credit-consommation
+load content : http://www.credit-conseil.fr/pret-immobilier/preparer-son-dossier-de-pret-immobilier.html
+load content : https://www.educaloi.qc.ca/capsules/le-dossier-de-credit
+load content : http://www.empruntis.com/focus-sur.php?service=CIAC&act=consulte&id_actu=1458
+load content : http://credit-auto.ooreka.fr/fiche/voir/118851/preparer-ses-documents-pour-demander-un-credit-auto
+load content : http://www.pratique.fr/preparer-dossier-pret.html
+load content : http://www.mistercredit.be/pret-chomeur-s01c15.php
+load content : http://www.immigrantquebec.com/dossier-credit/
+load content : https://www.sofinco.fr/organisme-credit/client-sofinco.htm
+load content : http://laminutefinance.seloger.com/credit-immobilier/comment-optimiser-dossier-demande-pret/
+load content : http://www.olivier-seban.com/courtier-credit-immobilier
+load content : http://www.immobilier-danger.com/15-conseils-pour-obtenir-un-296.html
+load content : http://economie.fgov.be/fr/binaries/Le_credit_a_la_consommation_tcm326-221772.pdf
+load content : https://www.bmo.com/pdf/Creating_financial_proposal_fr.pdf
+Impossible to load the content for : http://pret-aide.net/pret-rsa/ - Http status : 403
+Impossible to load the content for : http://pret-aide.net/pret-sans-justificatif-salaire/ - Http status : 403
+Impossible to load the content for : http://www.bep-entreprises.be/actualite/7713/Comment-financer-votre-projet-innovant-? - Http status : 500
+Impossible to load the content for : http://www.cecfinance.be/prets-a-temperament/besoin-de-liquidite-factures-inattendues-sans-justificatifs - Http status : 404
+Impossible to load the content for : http://www.mistercredit.be/ - Http status : 403
+Impossible to load the content for : http://www.casden.fr/Simulations/Pret-Immobilier - error : Error: getaddrinfo ENOTFOUND www.casden.fr www.casden.fr:80
+Impossible to load the content for : http://www.mistercredit.be/ - Http status : 403
+Impossible to load the content for : http://www.topcredit.be/offres-de-credit/pret-personnel - Http status : 403
+Impossible to load the content for : https://www.auxifina.be/ - error : Error: unable to verify the first certificate
+Impossible to load the content for : https://www.desjardins.com/outils/calculette-remb-pret/ - error : Error: read ECONNRESET
+Impossible to load the content for : https://www.belfius.be/retail/fr/produits/emprunter/habitation/credit-hypothecaire/index.aspx - error : Error: read ECONNRESET
+Impossible to load the content for : https://www.axa.be/ab/FR/particuliers/prets-et-credits/credit-hypothecaire/Pages/simulation-credit-hypothecaire.aspx - error : Error: read ECONNRESET
+Impossible to load the content for : https://mcc-info.fsma.be/fr/comment-pr%C3%A9parer-son-dossier-dinscription-en-tant-quinterm%C3%A9diaire-de-cr%C3%A9dit - error : Error: read ECONNRESET
+Impossible to load the content for : https://www.labanquepostale.fr/particulier/Outils/simulateurs/calculette_pret_immo.pretimmobilier.html - error : Error: read ECONNRESET
+Impossible to load the content for : https://mabanque.bnpparibas/fr/notre-offre/credits/credits-a-la-consommation - error : Error: read ECONNRESET
+Impossible to load the content for : https://www.axabank.be/fr/emprunter/emprunter-pour-logement/acheter-construire - error : Error: read ECONNRESET
+Impossible to load the content for : https://www.educaloi.qc.ca/capsules/le-dossier-de-credit - error : Error: read ECONNRESET
+Impossible to load the content for : http://economie.fgov.be/fr/binaries/Le_credit_a_la_consommation_tcm326-221772.pdf - error : Error: socket hang up
+Impossible to load the content for : http://blog-assurance-voyages.com/2015/08/12/comment-financer-son-projet-de-voyage/ - error : Error: read ECONNRESET
+End of loading all contents
+Calculate the tf.idf ....
+Impossible to load the content for : https://www.midfinance.be/proprietaires-en-difficulte/fiche-nous-avons-une-solution-22.html - error : Error: write EPIPE
+Impossible to load the content for : https://www.over-blog.com/Comment_bien_preparer_son_dossier_de_pret_bancaire_Conseils_guide_pratique_exemples-1095203869-art146522.html - Http status : 403
+Impossible to load the content for : https://www.labanquepostale.fr/particulier/produits/credits_consommation/pret_auto.dossier.html - error : Error: read ECONNRESET
+Impossible to load the content for : http://www.mistercredit.be/pret-chomeur-s01c15.php - Http status : 403
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/calculette-pret.md","time":"2016-02-11T21:35:38.036Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/calculette-pret.json","time":"2016-02-11T21:35:38.036Z","v":0}
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'capacité emprunt,calcul capacité emprunt' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'calcul mensualité crédit,calcul mensualité prêt' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'taeg calcul' - nbr of results : 50
+End of loading all contents
+Calculate the tf.idf ....
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/financer-projet-rapidement.md","time":"2016-02-11T21:35:41.996Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/financer-projet-rapidement.json","time":"2016-02-11T21:35:41.996Z","v":0}
+End of loading all contents
+Calculate the tf.idf ....
+load content : https://www.immotheker.be/FR/Modules_de_calcul/Capacite_demprunt/
+load content : http://www.meilleurtaux.com/credit-immobilier/simulation-de-pret-immobilier/evaluez-vos-possibilites-d-emprunt.html
+load content : http://www.lap.be/particuliers/moments-cles/volez-de-vos-propres-ailes/simulateur-de-credit-quelle-est-votre-capacite-de-remboursement-d-un-credit-hypothecaire.aspx
+load content : http://www.immoweb.be/fr/page.cfm?page=Loans_borrowing_capacity.htm
+load content : http://www.empruntis.com/?code=SEM2CI&page=calcul&act=cap2
+load content : http://www.calculatricecredit.com/capacite-emprunt.php
+load content : https://e-immobilier.credit-agricole.fr/Nos-simulateurs/Calculez-votre-capacite-d-acquisition
+load content : http://www.demetris.be/fr/particuliers/credit-hypothecaire-simulation
+load content : https://credit-immobilier.secure.lcl.fr/ELO-web/lcl-simulator/BorrowingCapacitySimulator.html
+load content : http://www.cafpi.fr/Calcul-capacite-emprunt.php
+load content : http://www.cafpi.fr/calcul-capacite-endettement.php
+load content : https://www.banquelaurentienne.ca/fr/calculettes/capacite.sn
+load content : https://www.hsbc.fr/1/2/hsbc-france/particuliers/emprunter/outils/simulateur-de-capacite-d-emprunt
+load content : http://www.lavieimmo.com/simulateur-immobilier/capacite-d-achat/
+load content : http://www.banque-info.com/fiches-pratiques-bancaires/comment-calculer-sa-capacite-dendettement
+load content : http://www.pap.fr/argent/credit-immobilier/combien-emprunter-pour-financer-son-achat/a1170/estimer-sa-capacite-d-endettement
+load content : http://www.cmhc-schl.gc.ca/fr/co/aclo/aclo_020.cfm
+load content : http://www.pret-accession-sociale.com/Calcul-capacite-credit-immobilier.html
+load content : http://www.franfinance.fr/simulez-capacite-demprunt/
+load content : https://www.creditmutuel.fr/cmcee/fr/banques/particuliers/logement/financer-acquisition/simulation-capacite-remboursement.html
+load content : https://www.cibc.com/ca/mortgages/calculator/mortgage-affordability-fr.html
+load content : http://simulation-credit-immobilier.courtier-et-pret.com/calcul/capacite-emprunt-fonction-revenu.html
+load content : http://www.logic-immo.be/fr/nouvelles-immo/capacite-d-emprunt-combien-puis-je-emprunter-pour-acheter-une-maison-ou-un-terraind-309.html
+load content : https://www.cic.fr/fr/banques/particuliers/votre-quotidien/credit_calculer-votre-capacite-de-remboursement.html
+load content : http://www.cyberpret.com/simulation-capacite-pret-immobilier.php
+load content : http://www.nexity.fr/immobilier/particuliers/financer/simulateurs/calcul-pouvoir-achat-immobilier
+load content : http://patrimoine.lesechos.fr/patrimoine/calcul/cac/appletcac.html
+load content : http://partner-credits.com/votre-capacite-demprunt/
+load content : http://www.cpe-credit.com/blog/calcul-capacite-emprunt
+load content : http://www.boursorama.com/patrimoine/credit/simulateurs.phtml
+load content : https://ia.ca/calculateur-capacite-emprunt
+load content : http://www.bricozone.be/fr/divers/t-calcul-de-la-capacite-demprunt-pour-un-pret-hypothecaire-87743.html
+load content : http://www.fmgm.com/calculettes-de-pret-immobilier/calcul-capacite-emprunt-pret-immobilier.php
+load content : http://www.my-business-plan.fr/caf
+load content : http://www.actufinance.fr/outils/calcul-capacite-achat.html
+load content : https://www.mesprojetsimmobiliers.fr/content/calculez-votre-capacite-demprunt
+load content : http://www.immonot.com/calcul-possibilite-emprunt.html
+load content : http://www.j-m-c.fr/calculatrices_budget_mensualite.aspx
+load content : http://www.compta-facile.com/calcul-capacite-dautofinancement/
+load content : http://www.itpret.com/calculettes/10/capacite-d-emprunt
+load content : http://www.guide-rachat-credit.com/outils-rachat-credit/simulation-emprunt/
+load content : https://www.lcl.com/guides-pratiques/immobilier/vendre-acheter/financement-achat-immobilier.jsp
+load content : http://www.lafinancepourtous.com/calculateurs/credit/calculateur_credit-immo.php
+load content : http://www.mediatix.com/simulateur-financier/capacite-endettement.php
+load content : http://www.lacentraledefinancement.fr/pret-credit-immobilier/les-simulateurs-de-prets-et-de-credit-immobilier/calcul-capacite-demprunt/
+load content : http://forum.pim.be/topic-277846-calcul-de-capacite-d-emprunt-page-1.html
+load content : http://www.creditland.fr/capacite-remboursement.html
+load content : http://www.e-konomiste.be/article-economique/comment-calculer-sa-capacite-de-remboursement/
+load content : http://www.cbanque.com/credit/taux-endettement.php
+load content : http://www.responis.com/calcul-capacite-emprunt.html
+load content : http://www.calculatricecredit.com/mensualite-emprunt.php
+load content : http://www.pim.be/pimfichier/mensuappim.html
+load content : http://www.guide-epargne.be/epargner/simulation-creditlogement.html
+load content : http://www.meilleurtaux.com/credit-immobilier/simulation-de-pret-immobilier/calcul-des-mensualites.html
+load content : http://www.lafinancepourtous.com/calculateurs/credit/calculateur_credit-immo.php
+load content : http://www.pap.fr/argent/calculettes/calcul-mensualite-emprunt
+load content : http://www.odph.be/simulation-de-calcul-d-un-pret-hypothecaire-connaitre-sa-mensualite.html
+load content : https://fr.wikipedia.org/wiki/Mensualit%C3%A9
+load content : http://calculis.net/mensualite
+load content : http://www.anil.org/outils-de-calcul/echeancier-dun-pret/
+load content : http://www.empruntis.com/?code=SEM2CI&page=calcul&act=cap1
+load content : http://www.empruntis.com/financement/credit-immobilier-simulation.php
+load content : http://www.astuce-credit.be/simulation-pret.php
+load content : http://trucsmaths.free.fr/js_emprunt.htm
+load content : http://ww2.autoscout24.be/calcul-mensualite.aspx
+load content : http://droit-finances.commentcamarche.net/forum/affich-4149900-comment-calculer-mensualites-d-un-pret-immobilier
+load content : http://www.cafpi.fr/calcul-montant-mensualite.php
+load content : https://www.credit-auto.be/credit-auto-calcul.html
+load content : http://www.j-m-c.fr/calculatrices_budget_mensualite.aspx
+load content : http://www.j-m-c.fr/Calculatrices_mensualite.aspx
+load content : http://www.cyberpret.com/calculettesimple.php3
+load content : http://simulation-credit-immobilier.courtier-et-pret.com/calcul/montant-emprunt-depuis-mensualite.html
+load content : http://www.dossierfamilial.com/argent/credits-surendettement/calculer-les-mensualites-d-un-pret-paliers-47308
+load content : https://www.labanquepostale.fr/particulier/Outils/simulateurs/calculette_pret_immo.pretimmobilier.html
+load content : http://www.immonot.com/calcul-mensualites-emprunt.html
+load content : http://www.virtualhome.be/structure/logement/emprunt.php
+load content : http://www4.bmo.com/popup/prets/Calculator.html
+load content : https://www.recordbank.be/fr/sim/krediet
+load content : https://www.service-public.fr/particuliers/vosdroits/R2924
+load content : http://www.numelion.com/calcul-dun-pret-et-dun-echeancier-avec-excel.html
+load content : http://www.actufinance.fr/outils/calcul-mensualites-remboursement-emprunt.html
+load content : http://www.chantimo.com/calcul-mensualite-pret.htm
+load content : http://www.test-achats.be/argent/prets-hypothecaires/calculateur/prets-hypothecaires-maitres-achats
+load content : http://www.guideducredit.com/HTMcorps/Fichierssimulateurs/math.htm
+load content : http://www.pret-accession-sociale.com/Calcul-credit-immobilier.html
+load content : http://www.segersassocies.be/Hypothecaire3.asp
+load content : http://plasserre.developpez.com/ve3-2.htm
+load content : http://www.centralecredithypothecaire.be/simuler-votre-credit-3/calcul-mensualite-choix.html
+load content : http://www.fiches-auto.fr/articles-auto/6-outils-pratiques-pour-votre-credit-auto/s-53-calculer-la-mensualite-d-un-credit-auto.php
+load content : http://www.credit-direct.be/rachat-de-credit/calculs_mensualite_jeune_sans.php
+load content : http://images.math.cnrs.fr/Emprunts-mensualites-interet-taux.html
+load content : http://www.maison-facile.com/magazine/outils-pratiques/calculatrices-finances/6834-calculer-quelle-sera-votre-mensualite-pour-un-emprunt/
+load content : http://www.ilemaths.net/calcul-credit.php
+load content : https://www.desjardins.com/fr/simulateurs/remb_pret_auto/
+load content : http://www.cession-commerce.com/outils/calcul-de-remboursement-d-un-pret.html
+load content : http://www.jelconseil.com/tools/Calcul%20emprunt%20mensualit%C3%A9s%20constantes.xlsx
+load content : http://www.simulationpret.be/guides.php?titre=simulation-de-pret-et-methode-de-calcul-de-mensualite&id=21
+load content : https://www.axabank.be/fr/emprunter/emprunter-pour-logement/renover
+load content : http://www.constructa.fr/vente/simulations.html
+load content : https://itunes.apple.com/fr/app/calcul-credit/id542584596?mt=8
+load content : https://www.guideducredit.com/?code=SHT6QN&page=calcul&act=cap1
+load content : http://www.pcastuces.com/newsletter/adj/3462.htm
+load content : http://www.calculatricecredit.com/taux-effectif-global.php
+load content : http://www.becompta.be/dossiers/credit/calculer-taeg
+load content : http://www.becompta.be/forums/comptabilite-generale/comment-calculer-taeg
+load content : http://www.simuler.eu/credit
+load content : http://calculis.net/mensualite
+load content : https://fr.wikipedia.org/wiki/Taux_effectif_global
+load content : http://notions-de-base.blogspot.com/2008/06/le-taux-annuel-effectif-global-taeg-ou.html
+load content : http://coursgratuits.net/calcul-financier/emprunt/calcul_taux_interet.php
+load content : http://www.kg-credit.fr/calculatrice-taux-effectif-global-teg.html
+load content : http://www.formulecredit.com/calcul/TEG.php
+load content : http://www.mftransparency.org/wp-content/uploads/2014/06/MFT-BRF-203-FR-Formules-et-approches-utilis%C3%A9es-dans-le-calcul-du-co%C3%BBt-r%C3%A9el-2011-05.pdf
+load content : http://www.pret-voiture.be/taeg/
+load content : http://www.choisir.com/guide/comment-choisir-son-credit-auto/comment-calculer-le-cout-de-votre-credit-auto?redir=301
+load content : http://www.guideducredit.com/HTMcorps/Fichierssimulateurs/calcul-teg.htm
+load content : http://www.e-konomiste.be/article-economique/comment-calculer-le-taeg/
+load content : http://www.cbanque.com/credit/teg2.php
+load content : http://www.cbanque.com/credit/teg-outil.php
+load content : http://www.les-mathematiques.net/phorum/read.php?4,797266,797380
+load content : http://www.actuasoft.com/taeg.xls
+load content : http://www.francetvinfo.fr/economie/votre-argent/des-erreurs-de-calcul-dans-la-moitie-des-taux-des-prets-immobiliers_442712.html
+load content : http://www.consumercredit.be/le-taeg,-les-frais-et-le-calcul-des-interets.html
+load content : http://www.consumercredit.be/article-1,-6%C2%B0-taeg/
+load content : https://www.recordbank.be/fr/sim/krediet
+load content : https://www.consortium-immobilier.fr/guide/argent/3/7/27/
+load content : http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023502888&categorieLien=id
+load content : http://www.familles-de-france.org/sites/default/files/fiche_27.pdf
+load content : http://www.ilemaths.net/calcul-credit.php
+load content : http://www.franceinfo.fr/emission/question-d-immobilier/2013-2014/des-erreurs-dans-le-calcul-des-credits-immobiliers-12-15-2013-09-50
+load content : http://www.cnasea.fr/credit-consommation/taux-de-credit-taeg
+load content : http://www.lafinancepourtous.com/Decryptages/Dossiers/Taux-d-interet/Combien-coute-votre-emprunt
+load content : http://www.mathematiquesfaciles.com/forum/lire.php?num=15&msg=61802&titre=Calcul+TAEG
+load content : http://economie.fgov.be/de/Unternehmen/Spezielle_Branchen/Services_financiers/Credits/Kredietkosten/Tarifs_maximaux/
+load content : http://alt.fr.questions.comptables.narkive.com/D5AiVnQ2/calcul-du-taeg
+load content : http://sosconso.blog.lemonde.fr/2014/06/05/credit-immobilier-meme-des-particuliers-peuvent-recalculer-un-taeg/
+load content : http://www.avocatdunkerque.com/tag/credit-consommation-calcul-taux-effectif-global-teg-taeg-erreur-de-calcul-pret-bancaire-credit-mutuel-caisse-epargne-credit-agricole-banque-populaire-credit-du-nord-societe-generale-assg/
+load content : http://www.lenaturel.be/forums/comptabilite-generale/calcul-du-taeg
+load content : http://droit-finances.commentcamarche.net/forum/affich-5799403-calcul-taeg-pret-etudiant
+load content : http://context.reverso.net/traduction/francais-italien/de+calcul+du+TAEG.Elle
+load content : https://www.cofidis.fr/fr/credit/guide/teg-taux-effectif-global-definition-calcul.html
+load content : http://www.logitheque.com/logiciels/comparer/jxpret-calcul-credit-excel_2748.htm
+load content : https://www.credit-auto.be/credit-auto-calcul.html
+load content : http://www.europe1.fr/economie/75-des-credits-sont-mal-calcules-et-ca-peut-rapporter-gros-1685493
+load content : http://artandscienceprojects.be/wp-content/uploads/2012/09/jaum_simplif.pdf
+load content : http://forum.adsl-bc.org/viewtopic.php?t=24310
+load content : http://www.atlantico.fr/decryptage/comment-verifier-que-ne-faites-pas-partie-50-gens-victimes-erreurs-calcul-banque-interets-pret-serge-maitre-880076.html
+load content : http://www.legalworld.be/legalworld/m_content.aspx?mid=_FL_39426&LangType=2060
+load content : http://www.anil.org/analyses-et-commentaires/analyses-juridiques/2002/quelles-sont-les-consequences-de-la-modification-des-modalites-de-calcul-du-taux-annuel-effectif-global-pour-les-credits-a-la-consommation/
+load content : http://ekonomia.fr/193/bon-prix-credit/
+load content : http://www.demos.fr/formation-e-learning-coache-maitrisez-le-calcul-des-interets-et-des-baremes-de-taux-27230
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-belgique.md","time":"2016-02-11T21:35:42.616Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-belgique.json","time":"2016-02-11T21:35:42.616Z","v":0}
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'banques belges' - nbr of results : 50
+config { mindmapConverter: '../mindmap/freemind-converter.js',
+  source: 'src',
+  templateFolder: 'templates',
+  mindmapMardownTemplate: 'mindmap/markdown-fr.jade',
+  mindmapJsonTemplate: 'mindmap/json-fr.jade',
+  mindmapPrefix: 'gg/content',
+  country: 'be',
+  language: 'fr' }
+Search on google.be for 'courtiers en crédit belge' - nbr of results : 50
+Impossible to load the content for : http://coursgratuits.net/calcul-financier/emprunt/calcul_taux_interet.php - error : Error: read ECONNRESET
+Impossible to load the content for : http://www.les-mathematiques.net/phorum/read.php?4,797266,797380 - error : Error: socket hang up
+Impossible to load the content for : http://www.ilemaths.net/calcul-credit.php - error : Error: socket hang up
+Impossible to load the content for : http://www.franceinfo.fr/emission/question-d-immobilier/2013-2014/des-erreurs-dans-le-calcul-des-credits-immobiliers-12-15-2013-09-50 - error : Error: read ECONNRESET
+Impossible to load the content for : http://economie.fgov.be/de/Unternehmen/Spezielle_Branchen/Services_financiers/Credits/Kredietkosten/Tarifs_maximaux/ - error : Error: read ECONNRESET
+Impossible to load the content for : http://www.avocatdunkerque.com/tag/credit-consommation-calcul-taux-effectif-global-teg-taeg-erreur-de-calcul-pret-bancaire-credit-mutuel-caisse-epargne-credit-agricole-banque-populaire-credit-du-nord-societe-generale-assg/ - error : Error: read ECONNRESET
+Impossible to load the content for : http://www.europe1.fr/economie/75-des-credits-sont-mal-calcules-et-ca-peut-rapporter-gros-1685493 - error : Error: read ECONNRESET
+Impossible to load the content for : http://forum.adsl-bc.org/viewtopic.php?t=24310 - Http status : 403
+Impossible to load the content for : https://www.desjardins.com/fr/simulateurs/remb_pret_auto/ - error : Error: read ECONNRESET
+load content : http://www.cafpi.be/
+load content : http://www.odph.be/courtier-en-credit-hypothecaire-wallonie-bruxelles-belgique.html
+load content : http://www.b-h-e.be/notre-equipe.php
+load content : http://www.crefibel.be/fr/crefibel-societe-de-credit-preteur-et-courtier
+load content : http://www.arlon-credit.be/
+load content : http://www.credits-belgique.be/
+load content : http://www.cepiac.be/courtier-credit-hypothecaire.php
+load content : http://economie.fgov.be/fr/entreprises/domaines_specifiques/Services_financiers/Credits/Kredietbemiddelaar/inscription/
+load content : http://www.centralecredithypothecaire.be/
+load content : http://www.gway.be/
+load content : https://www.feprabel.be/
+load content : http://www.infobel.com/fr/belgium/business/120401/societe_de_credit_courtier
+load content : http://www.comptoirdupret.be/fr/presentation-comptoir-du-pret.aspx
+load content : http://www.astuce-credit.be/
+load content : http://www.pret.be/
+load content : http://www.proxi-finances.be/
+load content : http://www.proxi-finances.be/FR/Pret-Credit-Bruxelles.awp
+load content : https://vdvconseil.be/
+load content : http://www.webwatch.be/FR/economie-entreprises.cfm/services-financiers/courtiers-credit/
+load content : http://credimania.com/credit-belgique/
+load content : http://www.hypotheque-conseils.be/
+load content : http://www.eulerhermes.be/fr/euler-hermes-en-belgique/Pages/Courtiers.aspx
+load content : http://www.habitations.be/credit-immobilier/guide-credit-habitation.html
+load content : http://www.hypoconnect.be/fr/blog/enfin-un-statut-officiel-pour-le-courtier-en-credit-hypothecaire
+load content : http://cash48.eu/
+load content : http://www.lesoir.be/427476/article/economie/immo/2014-02-13/immo
+load content : http://www.officeduprethypothecaire.be/courtier-office-du-pret-hypothecaire-liege-wallonie.html
+load content : http://www.ecfinances.be/
+load content : http://www.cpe-credit.com/
+load content : http://www.hb-finance.be/
+load content : http://www.optioncarriere.be/emploi-courtier.html
+load content : http://courtiersassuranceliege.be/
+load content : http://www.olivier-seban.com/courtier-credit-immobilier
+load content : http://www.courtier24.be/
+load content : https://mcc-info.fsma.be/fr/quelles-cat%C3%A9gories-d%E2%80%99interm%C3%A9diaires-en-cr%C3%A9dit-hypoth%C3%A9caire-existe-t-il
+load content : http://credit-immobilier-belgique.com/
+load content : http://www.assurances-credits.be/
+load content : http://www.vipa.biz/
+load content : http://www.creditfoncier.be/
+load content : http://www.canatwarton.com/lien-utile-courtier+en+financement+immobilier+a+l+international+paris+credit+immobilier+belgique-1202.html
+load content : http://www.acegroup.com/be-fr/pour-les-entreprises-et-les-courtiers/credit-commercial.aspx
+load content : http://www.webrankinfo.com/annuaire/cat-8198-courtier-en-credit.htm
+load content : http://www.belocas.com/fr/financement-possible----attention--emprunter-de-l-argent-coute-aussi-de-l-argent-
+load content : http://www.immobrussels.be/fr/immo/organismes-de-credit-banques-courtiers-hypotheque/
+load content : http://www.insurance-wyr.be/
+load content : http://www.credior.be/
+load content : http://www.immoweb.be/fr/Page.cfm?Page=loans.List05.htm&mycurrent_section=Ads
+load content : http://www.nationalesuisse.be/fr-BE/Service/Contact/Mon-courtier
+load content : http://votrecourtier.be/
+load content : http://forum.sports-sante.com/demande-de-credit-en-belgique-rapide-et-facile-pour-un-francais-t6397.html
+load content : https://www.meilleur-taux-epargne.be/livret-epargne.html
+load content : http://www.guide-epargne.be/epargner/evaluation-des-banques-epargne.html
+load content : http://www.pagesdor.be/banques/
+load content : http://fr.bancompare.be/
+load content : http://fr.bancompare.be/compte-a-vue/
+load content : http://www.banques-en-ligne.be/
+load content : http://www.banquebelgique.be/
+load content : http://www.crelan.be/fr/general/banque-cooperative
+load content : https://www.mesfournisseurs.be/epargner/agences
+load content : https://www.nbb.be/fr/supervision-financiere/controle-prudentiel/domaines-de-controle/etablissements-de-credit/listes-7
+load content : http://www.lavenir.net/cnt/dmf20121022_00222086
+load content : http://www.test-achats.be/action/espace-presse/communiques-de-presse/2010/cout-des-comptes-a-vue-test-achats-met-en-ligne-un-nouveau-simulateur-avec-le-soutien-des-autorites-publiques
+load content : https://www.febelfin.be/fr/association-belge-des-banques-et-des-societes-de-bourse-abb
+load content : https://www.nbb.be/fr
+load content : https://fr.wikipedia.org/wiki/Liste_de_banques_par_pays
+load content : http://www.jvmagazine.be/vie-pratique/s-installer/1849-la-banque-en-belgique-en-30-questions-reponses
+load content : https://www.belfius.be/retail/fr/index.aspx
+load content : http://www.lesoir.be/796242/article/economie/vie-du-net/2015-02-16/securite-des-banques-en-ligne-belges-il-y-une-faille-potentielle-selon-un-expert
+load content : https://www.rabobank.be/fr/demander/securite/solvabilite/default.aspx
+load content : https://www.deutschebank.be/fr/solutions/banque-au-quotidien.html
+load content : https://www.zoomit.be/fr/start/banque.html
+load content : https://www.optima.be/fr/capital-update/les-banques-belges-apres-la-crise-une-confiance-peu-peu-retrouvee
+load content : http://www.rtl.be/info/belgique/economie/les-banques-belges-ont-encore-besoin-d-argent-765724.aspx
+load content : https://www.intrum.com/be/fr/banques-belges-5-tendances-au-sein-du-secteur-bancaire/
+load content : http://economie.fgov.be/fr/litiges/litiges_consommation/Belmed/quoi/possibilites_reglement_alternatif/ombudsman/banques_credit_placements/
+load content : https://www.rtbf.be/info/economie/detail_les-banques-belges-se-debarrassent-de-leurs-clients-americains?id=7994411
+load content : http://bankwijzer.be/fr/scan-des-banques/accueil/
+load content : http://www.foodbanks.be/bkaFR/bka6000F.htm
+load content : http://www.cncd.be/La-complicite-des-banques-belges
+load content : http://pechesbancaires.eu/banko3.html
+load content : http://datanews.levif.be/ict/la-securite-ssl-des-banques-belges-s-assimile-a-une-passoire/article-normal-366675.html
+load content : http://trends.levif.be/economie/banque-et-finance/fortuneo-et-keytrade-le-mariage-qui-peut-bousculer-le-monde-bancaire-belge/article-normal-439389.html
+load content : http://www.comparebanque.be/fr/epargner/epargne-et-investir-pour-les-particuliers/comparez-les-comptes-depargne.html
+load content : http://www.fairfin.be/fr/votre-banque
+load content : http://www.lalibre.be/economie/actualite/stress-tests-banques-belges-vulnerables-a-un-scenario-catastrophe-544e882d3570a5ad0ede7ff7
+load content : http://www.7sur7.be/7s7/fr/1536/Economie/article/detail/1174205/2010/10/25/Les-quatre-grandes-banques-belges-sous-controle-prudentiel.dhtml
+load content : http://www.crisp.be/crisp/wp-content/uploads/analyses/Restructurations%20et%20r%C3%A9ductions%20d'emplois%20dans%20le%20secteur%20bancaire%20belge%20(A%20%20Vincent).pdf
+load content : http://deredactie.be/cm/vrtnieuws.francais/Soci%25C3%25A9t%25C3%25A9/1.1777004
+load content : http://www.fondsdeprotection.be/fr/mod_adherents.html
+load content : https://blog.recordbank.be/fr/article/quel-est-le-d%C3%A9lai-d%E2%80%99ex%C3%A9cution-d%E2%80%99un-virement-bancaire
+load content : http://www.belgium.be/fr/adresses_et_sites/Urls/http_www_abb-bvb_be
+load content : https://www.justlanded.com/francais/Belgique/Guide-Belgique/Finance/Les-Banques
+load content : http://actualite.sudpresse.be/banques-belgique.html
+load content : http://www.fsma.be/fr/About%20FSMA/Organisatie.aspx
+load content : http://www.sudinfo.be/856538/article/actualite/economie/2013-11-12/trop-de-banques-en-belgique-elles-risquent-de-connaitre-des-difficultes-dans-les
+load content : http://www.lesbanquesetlasociete.be/comment-le-secteur-financier-favorise-t-il-les-exportations-belges
+load content : http://www.ey.com/BE/en/Newsroom/News-releases/89-des-consommateurs-belges-ont-confiance-dans-leur-banque
+load content : http://www.philippelamberts.eu/les-7-peches-capitaux-des-banques/
+load content : https://www.binck.be/fr/a-propos-de-binckbank
+load content : http://www.dhnet.be/actu/belgique/les-banques-belges-feront-le-pont-vendredi-53844d9d3570902f990c93c9
+(node) warning: possible EventEmitter memory leak detected. 11 pipe listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Request.addListener (events.js:252:17)
+    at Request.init (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:507:8)
+    at Redirect.onResponse (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/lib/redirect.js:148:11)
+    at Request.onRequestResponse (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:898:22)
+    at emitOne (events.js:90:13)
+    at ClientRequest.emit (events.js:182:7)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:425:21)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+    at Socket.socketOnData (_http_client.js:315:20)
+    at emitOne (events.js:90:13)
+    at Socket.emit (events.js:182:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:523:20)
+(node) warning: possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Request.addListener (events.js:252:17)
+    at Request.start (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:797:8)
+    at Request.end (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:1381:10)
+    at end (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:575:14)
+    at Immediate._onImmediate (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:589:7)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+Impossible to load the content for : https://www.feprabel.be/ - error : Error: unable to verify the first certificate
+Impossible to load the content for : http://www.cpe-credit.com/ - Http status : 403
+Impossible to load the content for : https://vdvconseil.be/ - error : Error: unable to verify the first certificate
+Impossible to load the content for : http://votrecourtier.be/ - Http status : 403
+Impossible to load the content for : http://www.nationalesuisse.be/fr-BE/Service/Contact/Mon-courtier - Http status : 500
+Impossible to load the content for : http://www.lesoir.be/312420/article/economie/immo/2013-09-05/obtenir-un-credit-reste-possible-en-belgique-mais-il-faut-presenter-un-dossier-s - error : Error: Exceeded maxRedirects. Probably stuck in a redirect loop http://www.lesoir.be/312420/article/economie/immo/2013-09-05/obtenir-un-credit-reste-possible-en-belgique-mais-il-faut-presenter-un-dossier-s
+End of loading all contents
+Calculate the tf.idf ....
+Impossible to load the content for : https://www.beobank.be/fr/Credits/Pret-auto-vehicule-neuf.aspx - error : Error: read ECONNRESET
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/preparer-dossier-credit-rapide.md","time":"2016-02-11T21:36:18.341Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/preparer-dossier-credit-rapide.json","time":"2016-02-11T21:36:18.343Z","v":0}
+End of loading all contents
+Calculate the tf.idf ....
+Impossible to load the content for : https://www.binck.be/fr/a-propos-de-binckbank - Http status : 500
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/simulateur-pret-rapide.md","time":"2016-02-11T21:36:20.982Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/simulateur-pret-rapide.json","time":"2016-02-11T21:36:20.982Z","v":0}
+End of loading all contents
+Calculate the tf.idf ....
+Impossible to load the content for : http://www.acegroup.com/be-fr/pour-les-entreprises-et-les-courtiers/credit-commercial.aspx - Http status : 500
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/calculette-pret/calcul-mensualite.md","time":"2016-02-11T21:36:21.840Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/calculette-pret/calcul-mensualite.json","time":"2016-02-11T21:36:21.840Z","v":0}
+End of loading all contents
+Calculate the tf.idf ....
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/calculette-pret/capacite-emprunt.md","time":"2016-02-11T21:36:22.230Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/calculette-pret/capacite-emprunt.json","time":"2016-02-11T21:36:22.230Z","v":0}
+(node) warning: possible EventEmitter memory leak detected. 11 pipe listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Request.addListener (events.js:252:17)
+    at Request.init (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:507:8)
+    at Redirect.onResponse (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/lib/redirect.js:148:11)
+    at Request.onRequestResponse (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:898:22)
+    at emitOne (events.js:90:13)
+    at ClientRequest.emit (events.js:182:7)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:425:21)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+    at Socket.socketOnData (_http_client.js:315:20)
+    at emitOne (events.js:90:13)
+    at Socket.emit (events.js:182:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:523:20)
+(node) warning: possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Request.addListener (events.js:252:17)
+    at Request.start (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:797:8)
+    at Request.end (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:1381:10)
+    at end (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:575:14)
+    at Immediate._onImmediate (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:589:7)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+(node) warning: possible EventEmitter memory leak detected. 11 pipe listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Request.addListener (events.js:252:17)
+    at Request.init (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:507:8)
+    at Redirect.onResponse (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/lib/redirect.js:148:11)
+    at Request.onRequestResponse (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:898:22)
+    at emitOne (events.js:90:13)
+    at ClientRequest.emit (events.js:182:7)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:425:21)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+    at Socket.socketOnData (_http_client.js:315:20)
+    at emitOne (events.js:90:13)
+    at Socket.emit (events.js:182:7)
+    at readableAddChunk (_stream_readable.js:147:16)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:523:20)
+(node) warning: possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit.
+Trace
+    at Request.addListener (events.js:252:17)
+    at Request.start (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:797:8)
+    at Request.end (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:1381:10)
+    at end (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:575:14)
+    at Immediate._onImmediate (/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/node_modules/request/request.js:589:7)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+Impossible to load the content for : http://www.lesoir.be/796242/article/economie/vie-du-net/2015-02-16/securite-des-banques-en-ligne-belges-il-y-une-faille-potentielle-selon-un-expert - error : Error: Exceeded maxRedirects. Probably stuck in a redirect loop http://www.lesoir.be/796242/article/economie/vie-du-net/2015-02-16/securite-des-banques-en-ligne-belges-il-y-une-faille-potentielle-selon-un-expert
+Impossible to load the content for : http://www.lesoir.be/427476/article/economie/immo/2014-02-13/immo - error : Error: Exceeded maxRedirects. Probably stuck in a redirect loop http://www.lesoir.be/427476/article/economie/immo/2014-02-13/immo
+End of loading all contents
+Calculate the tf.idf ....
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-belgique/courtiers-credit-belgique.md","time":"2016-02-11T21:36:23.379Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-belgique/courtiers-credit-belgique.json","time":"2016-02-11T21:36:23.379Z","v":0}
+End of loading all contents
+Calculate the tf.idf ....
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-belgique/banques-belges.md","time":"2016-02-11T21:36:25.816Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-belgique/banques-belges.json","time":"2016-02-11T21:36:25.816Z","v":0}
+Impossible to load the content for : http://alt.fr.questions.comptables.narkive.com/D5AiVnQ2/calcul-du-taeg - Http status : 502
+Impossible to load the content for : http://www.creditsansjustificatif.xyz/ - Http status : 503
+End of loading all contents
+Calculate the tf.idf ....
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-sans-justificatif.md","time":"2016-02-11T21:37:09.898Z","v":0}
+{"name":"cocoons","hostname":"christophe.local","pid":91773,"level":30,"msg":"Create file : test/site-test-mindmap/src/gg/content/pret-personnel-sans-justificatif.json","time":"2016-02-11T21:37:09.898Z","v":0}
+^CTerminated: 15
+~/nodejs/_MODULES/cocoons/cocoons-cms :

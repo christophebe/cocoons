@@ -1,10 +1,12 @@
 {
     "menu": {
-        "pret-personnel-belgique": "/pret-personnel-belgique.html",
-        "pret-personnel-sans-justificatif": "/pret-personnel-sans-justificatif.html",
-        "calculette-pret": "/calculette-pret.html",
-        "financer-projet-rapidement": "/financer-projet-rapidement.html",
-        "preparer-dossier-credit-rapide": "/preparer-dossier-credit-rapide.html",
-        "simulateur-pret-rapide": "/simulateur-pret-rapide.html"
+        "Simuation pour un crédit auto": "/simulation.html",
+        "Financement auto : comment acheter une voiture sans fond propre ?": "/financement.html",
+        "conseils": "/conseils.html",
+        "Offres de crédit voiture en Belgique": "/principales-banques-belges.html",
+        "Crédit auto refusé ? Que faut-il faire ?": "/refus.html",
+        "Taux crédit auto : moyenne actuelle pour la Belgique": "/taux.html",
+        "eviter-endettement": "/eviter-endettement.html",
+        "Crédit pour tout type de véhicule": "/autre-vehicule.html"
     }
 }

@@ -5,9 +5,9 @@ if expressionsAsString
   != "* Liste de mots et expressions que vous devez obligatoirement utiliser dans cette page : \n"
   != expressionsAsString
   != "\n\n"
-  != "Insérez ces expressions dans le texte avec un français correcte (eg. 'interet emprunt voiture' devrait être : 'intérêts d'un emprunt pour une voiture' )\n"
+  != "Insérez ces expressions dans le texte avec un français correct (eg. 'interet emprunt voiture' devrait être : 'intérêts d'un emprunt pour une voiture' )\n"
 != "----------------------------------------------------------------------------------------------------------------------\n"
-!= "N'oubliez pas de supprimer les commentaires et les specifications dans ce texte, merci pour votre aide !\n"
+!= "N'oubliez pas de supprimer les commentaires et les spécifications dans ce texte, merci pour votre aide !\n"
 != "----------------------------------------------------------------------------------------------------------------------\n\n\n"
 
 if parentPage
@@ -16,7 +16,7 @@ if parentPage
   if parentPage.path
     !=  "[" + parentPage.kwsAsString + "](" + parentPage.path + ".html)"
   else
-    !=  "[home](/)"
+    !=  "[mot-clé del page d'accueil](/)"
 
 != "\n\n"
 
@@ -26,6 +26,11 @@ if parentPage
 
 != "\n\n"
 
+if subTitles 
+  !="Respectez la structure des sous-titres ci-dessous. Complétez chacune des parties par un ou deux paragraphes ou plus si nécessaire."
+  each subTitle in subTitles
+    != subTitle + "\n\n"
+    
 if children
   != "## Si nécessaire, ajoutez un titre ici (ne pas retirer les ##, laissez un espace entre les ## et le texte du titre)\n"
   each child in children
