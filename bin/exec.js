@@ -27,7 +27,7 @@ switch (process.argv[2]) {
       case "create":
           var siteTemplateName;
 
-          if (process.argv.length == 4) {
+          if (process.argv.length === 4) {
             siteTemplateName = process.argv[3];
           }
           create.createSite(siteTemplateName, null, function(error, status) {
@@ -44,17 +44,21 @@ switch (process.argv[2]) {
 
         var config = {};
 
-        if (process.argv.length != 4 && process.argv.length != 5) {
-            console.log('Usage: cocoons mindmap [mindmapFile] [pathPrefix]\n');
+        if (process.argv.length < 4 || process.argv.length > 6) {
+            console.log('Usage: cocoons mindmap [mindmapFile] [pathPrefix] [proxy-file]\n');
             return;
           }
 
-          if (process.argv.length >= 4) {
+          if (process.argv[3]) {
             config.mindmapFile = process.argv[3];
           }
 
-          if (process.argv.length == 5) {
+          if (process.argv[4]) {
             config.mindmapPrefix = process.argv[4];
+          }
+
+          if (process.argv[5]) {
+            config.proxyFile = process.argv[5];
           }
 
           mindmap.generateFromMindmap(config,function(error, folder){
@@ -71,7 +75,7 @@ switch (process.argv[2]) {
       case "preview":
           var projectFolder;
 
-          if (process.argv.length == 4) {
+          if (process.argv.length === 4) {
             projectFolder = process.argv[3];
           }
           preview.previewSite(projectFolder);

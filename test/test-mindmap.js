@@ -1,9 +1,31 @@
 var fs     = require("fs");
 var assert = require("assert");
+var proxyLoader = require("simple-proxies/lib/proxyfileloader");
 var m      = require("../lib/fs/mindmap-fs.js");
 
 
 describe('Test Mindmap', function(){
+
+      var proxyList = null;
+
+      before(function(done) {
+            this.timeout(100000);
+
+            var config = proxyLoader.config().setProxyFile("/Users/christophe/nodejs/_MODULES/cocoons/cocoons-cms/proxies.txt")
+                                             .setCheckProxies(true)
+                                             .setRemoveInvalidProxies(false);
+
+            proxyLoader.loadProxyFile(config,function(error, pl){
+            //proxyLoader.loadDefaultProxies(function(error, pl){
+                if (error) {
+                  done(error);
+                }
+                proxyList = pl;
+
+                done();
+            });
+
+      });
 
       it.skip('Generate a site from a mindmap - opml file', function(done) {
           var mindmapFilePath = "test/site-test-mindmap/test.opml";
@@ -45,7 +67,8 @@ describe('Test Mindmap', function(){
            mindmapJsonTemplate : "mindmap/json-fr.jade",
            //mindmapPrefix : "gg/content",
            country : "be",
-           language : "fr"
+           language : "fr",
+           proxyList : proxyList
          };
 
          var mindmap = new m.Mindmap(config, "test/site-test-mindmap");
@@ -53,18 +76,12 @@ describe('Test Mindmap', function(){
          mindmap.generateFromMindmap(mindmapFilePath, function(error, folder) {
 
             done(error);
-             /*
-             if (error) {
-                 done(error);
-             }
-             else {
-                 fs.exists('test/site-test-mindmap/gg/content/pret-voiture-moto/moto.md', function (exists) {
-                   done();
-                 });
-             }
-             */
-
+            
          });
+    });
+
+    it('Empty', function(done) {
+        done();
     });
 
 });

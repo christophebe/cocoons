@@ -7,6 +7,10 @@
   "bin": {
     "cocoons": "./bin/exec.js"
   },
+  "scripts" : {
+    "test" : "mocha",
+    "pretest" : "rm -rf ./logs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/christophebe/cocoons.git"
@@ -25,12 +29,12 @@
     "mkpath": "*",
     "native-dns": "*",
     "ncp": "*",
-    "node-json-minify": "0.1.4-a",
+    "node-json-minify": "*",
     "rimraf": "*",
     "serve-favicon": "*",
     "serve-static": "*",
     "underscore": "*",
-    "xml2js": "^0.4.10",
+    "xml2js": "*",
     "generate-corpus": "*"
   },
   "devDependencies": {
