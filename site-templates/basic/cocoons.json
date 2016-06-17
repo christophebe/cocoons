@@ -11,7 +11,7 @@
   "previewEngine"   : "../fs/preview-fs.js",
 
   "mindmapEngine"   : "../fs/mindmap-fs.js",
-  "mindmapConverter": "../mindmap/opml-converter.js",
+  "mindmapConverter": "../mindmap/freedmind-converter.js",
 
   "cloakingEngine"  : "../fs/cloaking-engine.js",
 

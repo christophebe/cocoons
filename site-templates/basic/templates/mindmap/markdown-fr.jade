@@ -1,8 +1,8 @@
 != "----------------------------------------------------------------------------------------------------------------------\n"
-!= "* Effectuez vos recherche sur google." + config.country + "\n\n"
+!= "* Effectuez vos recherches sur google." + config.country + "\n\n"
 != "* Mots clés principaux : " + kwsAsString + "\n\n"
 if expressionsAsString
-  != "* Liste de mots et expressions que vous devez obligatoirement utiliser dans cette page : \n"
+  != "* Liste des mots et expressions que vous devez obligatoirement utiliser dans cette page : \n"
   != expressionsAsString
   != "\n\n"
   != "Insérez ces expressions dans le texte avec un français correct (eg. 'interet emprunt voiture' devrait être : 'intérêts d'un emprunt pour une voiture' )\n"
@@ -16,11 +16,11 @@ if parentPage
   if parentPage.path
     !=  "[" + parentPage.kwsAsString + "](" + parentPage.path + ".html)"
   else
-    !=  "[mot-clé del page d'accueil](/)"
+    !=  "[mot-clé de la page d'accueil](/)"
 
 != "\n\n"
 
-!= "Ajouter ici du contenu que vous avez trouvé sur google ou d'autres sources d'informations.\n"
+!= "Ajoutez ici du contenu que vous avez trouvé sur google ou d'autres sources d'informations.\n"
 != "Vous pouvez ajouter des sous-titres, listes, tableaux en utilisant la syntaxe markdown : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\n"
 != "Ne répéter pas la même idée dans différents paragraphes.Proposez de l'information utile et/ou des conseils. \n"
 

@@ -21,7 +21,7 @@ describe('Test Mindmap', function(){
                   done(error);
                 }
                 proxyList = pl;
-
+                console.log("Proxies Loaded", proxyList.getProxies().length);
                 done();
             });
 
@@ -55,7 +55,7 @@ describe('Test Mindmap', function(){
           });
      });
 
-     it.only('Generate a site from a mindmap - freemind file', function(done) {
+     it.skip('Generate a site from a mindmap - freemind file', function(done) {
         this.timeout(1000000);
          var mindmapFilePath = "test/site-test-mindmap/credit-auto.mm";
 
@@ -76,7 +76,7 @@ describe('Test Mindmap', function(){
          mindmap.generateFromMindmap(mindmapFilePath, function(error, folder) {
 
             done(error);
-            
+
          });
     });
 
