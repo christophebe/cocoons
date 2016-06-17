@@ -1,6 +1,6 @@
 {
   "name": "cocoons.io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Christophe Lombart <christophe.lombart@gmail.com>",
   "description": "Web site generator for the SEO ! Made with nodejs, markdown and jade with optionnally cloakings & mindmaps.",
   "homepage": "http://www.cocoons.io",
@@ -19,7 +19,6 @@
     "async": "*",
     "body-parser": "*",
     "bunyan": "*",
-    "collections": "*",
     "express": "4.12.2",
     "graceful-fs": "*",
     "jade": "*",
